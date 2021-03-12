@@ -21,7 +21,7 @@
     <!--/GA4-->
 
     <!--Yandex.Metrika-->
-    <meta content="f9ac70118c4684ab"
+    <!--<meta content="f9ac70118c4684ab"
           name="yandex-verification"/>
     <script type="text/javascript">
         (function(m, e, t, r, i, k, a) {
@@ -45,7 +45,7 @@
                  src="https://mc.yandex.ru/watch/69884536"
                  style="position:absolute; left:-9999px;"/>
         </div>
-    </noscript>
+    </noscript>-->
     <!--/Yandex.Metrika-->
 
     <meta charset="utf-8">
@@ -144,10 +144,7 @@
       a::after {
         content: '\e89e';
         font-family: 'Material Icons', sans-serif;
-        line-height: .4 !important;
-        margin-left: 2px;
-        position: relative;
-        top: 1.75px;
+        margin-left: .1rem;
       }
 
       :focus-visible {
@@ -159,19 +156,19 @@
     <!--Bootstrap customization-->
     <style>
       .bg-primary {
-        background-color: rgba(0, 123, 255, .7) !important;
+        background-color: rgba(0, 123, 255, .8) !important;
       }
 
       .bg-info {
-        background-color: rgba(23, 162, 184, .7) !important;
+        background-color: rgba(23, 162, 184, .8) !important;
       }
 
       .bg-success {
-        background-color: rgba(40, 167, 69, .7) !important;
+        background-color: rgba(40, 167, 69, .8) !important;
       }
 
       .bg-secondary {
-        background-color: rgba(108, 117, 125, .7) !important;
+        background-color: rgba(108, 117, 125, .8) !important;
       }
 
       a {
@@ -275,22 +272,10 @@
           width: 100% !important;
         }
 
-        .qr {
+        /*.qr {
           min-height: 250px !important;
           min-width: 250px !important;
-        }
-
-        .badge.fz70 {
-          line-height: 2 !important;
-          margin: .1rem;
-          padding-bottom: 0;
-          padding-top: 0;
-        }
-
-        .badge {
-          line-height: 1.25 !important;
-        }
-
+        }*/
         .progress {
           height: 2rem;
         }
@@ -339,9 +324,6 @@
 
       .badge {
         border-width: 0 !important;
-      }
-
-      .badge {
         line-height: .65 !important;
       }
 
@@ -385,11 +367,10 @@
         }
       }
 
-      .qr {
+      /*.qr {
         min-height: 127px !important;
         min-width: 127px !important;
-      }
-
+      }*/
       .col-lg-5.col-md-12 {
         flex: 0 0 41.666667%;
         max-width: 41.666667%;
@@ -491,39 +472,46 @@
             </div>
             <div class="p-0 m-0">
                 <div class="progress rounded-pill">
-                    <div aria-valuemax="100"
+                    <div aria-label="Magento 1, 2"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="51"
                          class="progress-bar rounded-pill bg-primary align-items-end"
                          role="progressbar"
                          style="width: 56%">
                         <div class="d-flex align-self-end py-0 px-2">
-                            <a class="badge"
+                            <a class="d-flex align-self-center badge"
                                href="https://magento.com"
+                               rel="noopener"
                                target="_blank">Magento</a>
-                            <small class="badge badge-pill fz70 alert-primary ml-1">1</small>
+                            <small class="badge badge-pill fz70 alert-primary">1</small>
                             <small class="badge badge-pill fz70 alert-primary ml-1">2</small>
                         </div>
                     </div>
                 </div>
                 <div class="list-unstyled d-flex flex-wrap p-0 mx-n1 mb-n1 mt-1">
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://docker.com/why-docker"
+                       rel="noopener"
                        target="_blank">docker</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://httpd.apache.org"
+                       rel="noopener"
                        target="_blank">Apache HTTP Server</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://nginx.com"
+                       rel="noopener"
                        target="_blank">nginx</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://redis.io"
+                       rel="noopener"
                        target="_blank">redis</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        data-de-href="https://elastic.co/de/elasticsearch"
                        data-en-href="https://elastic.co/elasticsearch"
                        data-ru-href="https://elastic.co/elasticsearch"
                        href="https://elastic.co/de/elasticsearch"
+                       rel="noopener"
                        target="_blank">Elasticsearch</a>
                     <!--<div class="badge badge-pill alert-primary m-1">REST</div>-->
                     <!--<div class="badge badge-pill alert-primary m-1">Postman</div>-->
@@ -536,24 +524,27 @@
         <li class="mt-4">
             <div class="p-0 m-0">
                 <div class="progress rounded-pill">
-                    <div aria-valuemax="100"
+                    <div aria-label="PHP"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="45"
                          class="progress-bar rounded-pill bg-primary align-items-end px-2"
                          role="progressbar"
                          style="width: 45%">
-                        <div class="badge">PHP</div>
+                        <div class="d-flex align-self-center badge">PHP</div>
                     </div>
                 </div>
                 <div class="list-unstyled d-flex flex-wrap p-0 mx-n1 mb-n1 mt-1">
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        data-de-href="https://jetbrains.com/de-de/phpstorm"
                        data-en-href="https://jetbrains.com/phpstorm"
                        data-ru-href="https://jetbrains.com/ru-ru/phpstorm"
                        href="https://jetbrains.com/de-de/phpstorm"
+                       rel="noopener"
                        target="_blank">PhpStorm</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://getcomposer.org"
+                       rel="noopener"
                        target="_blank">Composer</a>
                     <!--<div class="badge badge-pill alert-primary m-1">Zend Framework</div>-->
                     <!--<div class="badge badge-pill alert-primary m-1">Laminas</div>-->
@@ -565,23 +556,26 @@
         <li class="mt-4">
             <div class="p-0 m-0">
                 <div class="progress rounded-pill">
-                    <div aria-valuemax="100"
+                    <div aria-label="JavaScript"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="32"
                          class="progress-bar rounded-pill bg-primary align-items-end px-2"
                          role="progressbar"
                          style="width: 32%">
-                        <div class="badge">JavaScript</div>
+                        <div class="d-flex align-self-center badge">JavaScript</div>
                     </div>
                 </div>
                 <div class="list-unstyled d-flex flex-wrap p-0 mx-n1 mb-n1 mt-1">
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://jquery.com"
+                       rel="noopener"
                        target="_blank">jQuery</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="http://prototypejs.org"
+                       rel="noopener"
                        target="_blank">prototype</a>
-                    <!--<a class="badge badge-pill alert-primary m-1"
+                    <!--<a rel="noopener" class="badge badge-pill alert-primary m-1"
                            href="https://www.npmjs.com"
                            target="_blank">npm</a>-->
                     <div class="badge badge-pill alert-primary m-1">AJAX</div>
@@ -592,21 +586,24 @@
         <li class="mt-4">
             <div class="p-0 m-0">
                 <div class="progress rounded-pill">
-                    <div aria-valuemax="100"
+                    <div aria-label="SQL"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="23"
                          class="progress-bar rounded-pill bg-primary align-items-end px-2"
                          role="progressbar"
                          style="width: 23%">
-                        <div class="badge">SQL</div>
+                        <div class="d-flex align-self-center badge">SQL</div>
                     </div>
                 </div>
                 <div class="list-unstyled d-flex flex-wrap p-0 mx-n1 mb-n1 mt-1">
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://mariadb.org"
+                       rel="noopener"
                        target="_blank">MariaDB</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://phpmyadmin.net"
+                       rel="noopener"
                        target="_blank">phpMyAdmin</a>
                 </div>
             </div>
@@ -614,21 +611,23 @@
         <li class="mt-4">
             <div class="p-0 m-0">
                 <div class="progress rounded-pill">
-                    <div aria-valuemax="100"
+                    <div aria-label="CSS"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="75"
                          class="progress-bar rounded-pill bg-primary align-items-end px-2"
                          role="progressbar"
                          style="width: 75%">
-                        <div class="badge">CSS</div>
+                        <div class="d-flex align-self-center badge">CSS</div>
                     </div>
                 </div>
                 <div class="list-unstyled d-flex flex-wrap p-0 mx-n1 mb-n1 mt-1">
-                    <!--<a class="badge badge-pill alert-primary m-1"
+                    <!--<a rel="noopener" class="badge badge-pill alert-primary m-1"
                        href="http://lesscss.org"
                        target="_blank">LESS</a>-->
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://getbootstrap.com/"
+                       rel="noopener"
                        target="_blank">Bootstrap</a>
                     <div class="badge badge-pill alert-primary m-1"
                          data-de="Responsive Design"
@@ -644,21 +643,23 @@
         <li class="mt-4">
             <div class="p-0 m-0">
                 <div class="progress rounded-pill">
-                    <div aria-valuemax="100"
+                    <div aria-label="HTML"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="90"
                          class="progress-bar rounded-pill bg-primary align-items-end px-2"
                          role="progressbar"
                          style="width: 90%">
-                        <div class="badge">HTML</div>
+                        <div class="d-flex align-self-center badge">HTML</div>
                     </div>
                 </div>
                 <div class="list-unstyled d-flex flex-wrap p-0 mx-n1 mb-n1 mt-1">
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        data-de="Strukturierte Daten"
                        data-en="Structured data"
                        data-ru="Структурированные данные"
                        href="https://developers.google.com/search/docs/guides/search-gallery"
+                       rel="noopener"
                        target="_blank"></a>
                     <div class="badge badge-pill alert-primary m-1"
                          data-de="HTML E-Mail Layout"
@@ -670,13 +671,14 @@
         <li class="mt-4">
             <div class="p-0 m-0">
                 <div class="progress rounded-pill">
-                    <div aria-valuemax="100"
+                    <div aria-label="git"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="42"
                          class="progress-bar rounded-pill bg-primary align-items-end px-2"
                          role="progressbar"
                          style="width: 42%">
-                        <div class="badge">git</div>
+                        <div class="d-flex align-self-center badge">git</div>
                     </div>
                 </div>
                 <!--<div class="d-flex flex-wrap p-0 mx-n1 mb-n1 mt-1">
@@ -688,23 +690,27 @@
         <li class="mt-3">
             <div class="p-0 m-0">
                 <div class="list-unstyled d-flex flex-wrap p-0 m-n1">
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://ubuntu.com/server"
+                       rel="noopener"
                        target="_blank">ubuntu</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        data-de-href="https://docs.microsoft.com/de-de/windows/wsl/about"
                        data-en-href="https://docs.microsoft.com/en-us/windows/wsl/about"
                        data-ru-href="https://docs.microsoft.com/ru-ru/windows/wsl/about"
                        href="https://docs.microsoft.com/de-de/windows/wsl/about"
+                       rel="noopener"
                        target="_blank">WSL2</a>
                     <div class="badge badge-pill alert-primary m-1">bash</div>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://plesk.com/features/"
+                       rel="noopener"
                        target="_blank">plesk</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://openproject.org/collaboration-software-features"
+                       rel="noopener"
                        target="_blank">OpenProject</a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        data-de="Bitrix24"
                        data-de-href="https://bitrix24.de"
                        data-en="Bitrix24"
@@ -712,9 +718,11 @@
                        data-ru="Битрикс24"
                        data-ru-href="https://bitrix24.ru"
                        href="https://bitrix24.de"
+                       rel="noopener"
                        target="_blank"></a>
-                    <a class="badge badge-pill alert-primary m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-primary m-1"
                        href="https://webmin.com"
+                       rel="noopener"
                        target="_blank">webmin</a>
                 </div>
             </div>
@@ -732,39 +740,42 @@
             </div>
             <div class="p-0 m-0">
                 <div class="progress rounded-pill mb-2">
-                    <div aria-valuemax="100"
+                    <div aria-label="German"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="55"
                          class="progress-bar rounded-pill bg-info align-items-start"
                          role="progressbar"
                          style="width: 55%">
                         <div class="d-flex align-self-end py-0 px-2">
-                            <div class="badge"
+                            <div class="d-flex align-self-center badge"
                                  data-de="Deutsch"
                                  data-en="German"
                                  data-ru="Немецкий"></div>
-                            <a class="badge badge-pill text-uppercase fz70 alert-info"
+                            <a class="d-flex align-self-center badge badge-pill alert-info text-uppercase fz70"
                                data-de-href="https://www.telc.net/pruefungsteilnehmende/sprachpruefungen/pruefungen/detail/telc-deutsch-b2.html"
                                data-en-href="https://www.telc.net/en/candidates/language-examinations/tests/detail/telc-deutsch-b2.html"
                                data-ru-href="https://www.telc.net/en/candidates/language-examinations/tests/detail/telc-deutsch-b2.html"
                                href="https://www.telc.net/pruefungsteilnehmende/sprachpruefungen/pruefungen/detail/telc-deutsch-b2.html"
+                               rel="noopener"
                                target="_blank">B2-C1</a>
                         </div>
                     </div>
                 </div>
                 <div class="progress rounded-pill mb-2">
-                    <div aria-valuemax="100"
+                    <div aria-label="English"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="29"
                          class="progress-bar rounded-pill bg-info align-items-start"
                          role="progressbar"
                          style="width: 29%">
                         <div class="d-flex align-self-end py-0 px-2">
-                            <div class="badge"
+                            <div class="d-flex align-self-center badge"
                                  data-de="Englisch"
                                  data-en="English"
                                  data-ru="Английский"></div>
-                            <!--<small class="badge badge-pill text-uppercase fz70 alert-info"
+                            <!--<small class="d-flex align-self-center badge badge-pill alert-info text-uppercase fz70"
                                    data-de="Lesen der Doku"
                                    data-en="Reading docs"
                                    data-ru="Чтение док-ции"></small>-->
@@ -772,18 +783,19 @@
                     </div>
                 </div>
                 <div class="progress rounded-pill">
-                    <div aria-valuemax="100"
+                    <div aria-label="Russian"
+                         aria-valuemax="100"
                          aria-valuemin="0"
                          aria-valuenow="93"
                          class="progress-bar rounded-pill bg-info align-items-start"
                          role="progressbar"
                          style="width: 93%">
                         <div class="d-flex align-self-end py-0 px-2">
-                            <div class="badge"
+                            <div class="d-flex align-self-center badge"
                                  data-de="Russisch"
                                  data-en="Russian"
                                  data-ru="Русский"></div>
-                            <small class="badge badge-pill text-uppercase fz70 alert-info"
+                            <small class="d-flex align-self-center badge badge-pill alert-info text-uppercase fz70"
                                    data-de="Muttersprache"
                                    data-en="Native language"
                                    data-ru="Родной язык"></small>
@@ -839,25 +851,25 @@
             </div>
             <div class="p-0 m-0">
                 <div class="list-unstyled d-flex flex-wrap p-0 m-n1">
-                    <a class="badge badge-pill alert-secondary m-1"
+                    <a rel="noopener" class="badge badge-pill alert-secondary m-1"
                        data-de-href=""
                        data-en-href=""
                        data-ru-href=""
                        href=""
                        target="_blank">RequireJS</a>
-                    <a class="badge badge-pill alert-secondary m-1"
+                    <a rel="noopener" class="badge badge-pill alert-secondary m-1"
                        data-de-href=""
                        data-en-href=""
                        data-ru-href=""
                        href=""
                        target="_blank">Knockout.js</a>
-                    <a class="badge badge-pill alert-secondary m-1"
+                    <a rel="noopener" class="badge badge-pill alert-secondary m-1"
                        data-de-href="https://vuejs.org"
                        data-en-href="https://vuejs.org"
                        data-ru-href="https://ru.vuejs.org"
                        href="https://vuejs.org"
                        target="_blank">Vue.js</a>
-                    <a class="badge badge-pill alert-secondary m-1"
+                    <a rel="noopener" class="badge badge-pill alert-secondary m-1"
                        data-de-href="https://nodejs.org/de"
                        data-en-href="https://nodejs.org/en"
                        data-ru-href="https://nodejs.org/ru"
@@ -914,7 +926,7 @@
             </div>
             <div class="p-0 m-0">
                 <div class="d-flex flex-wrap justify-content-between align-content-center p-0 m-0 mb-n3">
-                    <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-xs-column p-0 mt-n1 mb-2 mx-0">
+                    <div class="d-flex flex-xl-row flex-lg-row flex-md-row flex-sm-column flex-xs-column flex-column p-0 mt-n1 mb-2 mx-0">
                         <div class="mr-4">
                             <div class="d-flex align-items-center">
                             <span class="badge text-muted mx-n1"
@@ -949,7 +961,7 @@
                                   data-de="Adresse"
                                   data-en="Address"
                                   data-ru="Адрес"></span>
-                                <a class="badge badge-pill alert-secondary m-1"
+                                <a class="d-flex align-self-center badge badge-pill alert-secondary m-1"
                                    data-de="08280 Aue"
                                    data-de-href="https://google.de/maps/place/Aue, Deutschland"
                                    data-en="08280 Aue"
@@ -957,6 +969,7 @@
                                    data-ru="08280 Ауэ"
                                    data-ru-href="https://google.ru/maps/place/Ауэ, Германия"
                                    href="https://google.com/maps/place/Aue, Deutschland"
+                                   rel="noopener"
                                    target="_blank"></a>
                                 <span class="badge badge-pill alert-secondary m-1"
                                       data-de="Deutschland"
@@ -968,34 +981,39 @@
                                   data-de="E-Mail"
                                   data-en="Email"
                                   data-ru="Email"></span>
-                                <a class="badge badge-pill alert-secondary m-1"
+                                <a class="d-flex align-self-center badge badge-pill alert-secondary m-1"
                                    href="mailto:victor.svizev@gmail.com"
+                                   rel="noopener"
                                    target="_blank">victor.svizev@gmail.com</a>
                             </div>
                         </div>
                         <div>
                             <div class="d-flex align-items-center">
                                 <!--<span class="badge text-muted mx-n1">LinkedIn</span>-->
-                                <a class="badge badge-pill alert-secondary mx-0 my-1"
+                                <a class="d-flex align-self-center badge badge-pill alert-secondary mx-0 my-1"
                                    href="https://linkedin.com/in/victor-svizev"
+                                   rel="noopener"
                                    target="_blank">linkedin.com/in/victor-svizev</a>
                             </div>
                             <div class="d-flex align-items-center">
                                 <!--<span class="badge text-muted mx-n1">XING</span>-->
-                                <a class="badge badge-pill alert-secondary mx-0 my-1"
+                                <a class="d-flex align-self-center badge badge-pill alert-secondary mx-0 my-1"
                                    href="https://xing.com/profile/Victor_Svizev"
+                                   rel="noopener"
                                    target="_blank">xing.com/profile/Victor_Svizev</a>
                             </div>
                             <div class="d-flex align-items-center">
                                 <!--<span class="badge text-muted mx-n1">Stack Overflow</span>-->
-                                <a class="badge badge-pill alert-secondary mx-0 my-1"
+                                <a class="d-flex align-self-center badge badge-pill alert-secondary mx-0 my-1"
                                    href="https://stackoverflow.com/u/7676971"
+                                   rel="noopener"
                                    target="_blank">stackoverflow.com/u/7676971</a>
                             </div>
                             <!--<div class="d-flex align-items-center">
                                 <span>GitHub</span>
-                                <a class="badge badge-pill alert-secondary mx-0 my-1"
+                                <a class="d-flex align-self-center badge badge-pill alert-secondary mx-0 my-1"
                                    href="https://github.com/vsvizev"
+                                   rel="noopener"
                                    target="_blank">github.com/vsvizev</a>
                             </div>-->
                         </div>
@@ -1112,9 +1130,9 @@
                         data-en="Custom theme creation"
                         data-ru="Разработка индивидуальной темы"></li>-->
                 </ul>
-                <div class="d-flex flex-column flex-lg-row flex-sm-column align-items-start justify-content-between p-0 m-0 mt-1">
-                    <span class="badge mx-n1">UNlimited-world trade union GmbH</span>
-                    <a class="badge mx-n1"
+                <div class="d-flex flex-wrap justify-content-between p-0 m-0 mt-1">
+                    <span class="d-flex align-self-center badge mx-n1">UNlimited-world trade union GmbH</span>
+                    <a class="d-flex align-self-center badge mx-n1"
                        data-de="Zwönitz, Deutschland"
                        data-de-href="https://google.de/maps/place/Zwönitz, Deutschland"
                        data-en="Zwönitz, Germany"
@@ -1122,6 +1140,7 @@
                        data-ru="Цвёниц, Германия"
                        data-ru-href="https://google.ru/maps/place/Цвёниц, Германия"
                        href="https://google.com/maps/place/Zwönitz, Deutschland"
+                       rel="noopener"
                        target="_blank">
                     </a>
                 </div>
@@ -1174,9 +1193,9 @@
                         data-en="HTML Email layout"
                         data-ru="Верстка HTML email"></li>
                 </ul>
-                <div class="d-flex flex-column flex-lg-row flex-sm-column align-items-start justify-content-between p-0 m-0 mt-1">
-                    <span class="badge mx-n1">UNlimited-world trade union GmbH</span>
-                    <a class="badge mx-n1"
+                <div class="d-flex flex-wrap justify-content-between p-0 m-0 mt-1">
+                    <span class="d-flex align-self-center badge mx-n1">UNlimited-world trade union GmbH</span>
+                    <a class="d-flex align-self-center badge mx-n1"
                        data-de="Zwönitz, Deutschland"
                        data-de-href="https://google.de/maps/place/Zwönitz, Deutschland"
                        data-en="Zwönitz, Germany"
@@ -1184,6 +1203,7 @@
                        data-ru="Цвёниц, Германия"
                        data-ru-href="https://google.ru/maps/place/Цвёниц, Германия"
                        href="https://google.com/maps/place/Zwönitz, Deutschland"
+                       rel="noopener"
                        target="_blank">
                     </a>
                 </div>
@@ -1226,11 +1246,12 @@
                     <li class="badge badge-pill alert-info bg-white m-1">CSS</li>
                     <li class="badge badge-pill alert-info bg-white m-1">HTML</li>
                 </ul>
-                <div class="d-flex flex-column flex-lg-row flex-sm-column align-items-start justify-content-between p-0 m-0 mt-1">
-                    <a class="badge mx-n1"
+                <div class="d-flex flex-wrap justify-content-between p-0 m-0 mt-1">
+                    <a class="d-flex align-self-center badge mx-n1"
                        href="https://cit-zwickau.de"
+                       rel="noopener"
                        target="_blank">ciT Zwickau GmbH</a>
-                    <a class="badge mx-n1"
+                    <a class="d-flex align-self-center badge mx-n1"
                        data-de="Zwickau, Deutschland"
                        data-de-href="https://google.de/maps/place/Zwickau, Deutschland"
                        data-en="Zwickau, Germany"
@@ -1238,6 +1259,7 @@
                        data-ru="Цвикау, Германия"
                        data-ru-href="https://google.ru/maps/place/Цвикау, Германия"
                        href="https://google.com/maps/place/Zwickau, Deutschland"
+                       rel="noopener"
                        target="_blank"></a>
                 </div>
             </div>
@@ -1263,18 +1285,20 @@
                            data-ru="Отдельные пункты учебной программы"></small>
                 </div>
                 <div class="d-flex flex-wrap p-0 mb-0 mt-1 mx-n1">
-                    <a class="badge badge-pill alert-info bg-white m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-info bg-white m-1"
                        data-de="Berufsbezogenes Deutsch"
                        data-en="Occupational german"
                        data-ru="Профориентированный немецкий язык"
                        href="https://bildungsgesellschaft-chemnitz.de/sprachen.html"
+                       rel="noopener"
                        target="_blank"></a>
                 </div>
-                <div class="d-flex flex-column flex-lg-row flex-sm-column align-items-start justify-content-between p-0 m-0 mt-1">
-                    <a class="badge mx-n1"
+                <div class="d-flex flex-wrap justify-content-between p-0 m-0 mt-1">
+                    <a class="d-flex align-self-center badge mx-n1"
                        href="https://bildungsgesellschaft-chemnitz.de"
+                       rel="noopener"
                        target="_blank">PROFIL Bildungsgesellschaft mbH</a>
-                    <a class="badge mx-n1"
+                    <a class="d-flex align-self-center badge mx-n1"
                        data-de="Chemnitz, Deutschland"
                        data-de-href="https://google.de/maps/place/Chemnitz, Deutschland"
                        data-en="Chemnitz, Germany"
@@ -1282,6 +1306,7 @@
                        data-ru="Хемниц, Германия"
                        data-ru-href="https://google.ru/maps/place/Хемниц, Германия"
                        href="https://google.com/maps/place/Chemnitz, Deutschland"
+                       rel="noopener"
                        target="_blank"></a>
                 </div>
             </div>
@@ -1347,24 +1372,27 @@
                            data-ru="Учебная программа"></small>
                 </div>
                 <div class="d-flex flex-wrap p-0 mb-0 mt-1 mx-n1">
-                    <a class="badge badge-pill alert-info bg-white m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-info bg-white m-1"
                        data-de-href="https://www.telc.net/pruefungsteilnehmende/sprachpruefungen/pruefungen/detail/deutsch-test-fuer-zuwanderer-a2b1.html"
                        data-en-href="https://www.telc.net/en/candidates/language-examinations/tests/detail/deutsch-test-fuer-zuwanderer-a2b1.html"
                        data-ru-href="https://www.telc.net/en/candidates/language-examinations/tests/detail/deutsch-test-fuer-zuwanderer-a2b1.html"
                        href="https://www.telc.net/pruefungsteilnehmende/sprachpruefungen/pruefungen/detail/deutsch-test-fuer-zuwanderer-a2b1.html"
+                       rel="noopener"
                        target="_blank">Deutsch-Test für Zuwanderer A2-B1</a>
-                    <a class="badge badge-pill alert-info bg-white m-1"
+                    <a class="d-flex align-self-center badge badge-pill alert-info bg-white m-1"
                        data-de-href="https://www.telc.net/pruefungsteilnehmende/sprachpruefungen/pruefungen/detail/telc-deutsch-b2.html"
                        data-en-href="https://www.telc.net/en/candidates/language-examinations/tests/detail/telc-deutsch-b2.html"
                        data-ru-href="https://www.telc.net/en/candidates/language-examinations/tests/detail/telc-deutsch-b2.html"
                        href="https://www.telc.net/pruefungsteilnehmende/sprachpruefungen/pruefungen/detail/telc-deutsch-b2.html"
+                       rel="noopener"
                        target="_blank">telc Deutsch B2</a>
                 </div>
-                <div class="d-flex flex-column flex-lg-row flex-sm-column align-items-start justify-content-between p-0 m-0 mt-1">
-                    <a class="badge mx-n1"
+                <div class="d-flex flex-wrap justify-content-between p-0 m-0 mt-1">
+                    <a class="d-flex align-self-center badge mx-n1"
                        href="https://vhs-erzgebirgskreis.de/index.php"
+                       rel="noopener"
                        target="_blank">Volkshochschule (VHS)</a>
-                    <a class="badge mx-n1"
+                    <a class="d-flex align-self-center badge mx-n1"
                        data-de="Aue, Deutschland"
                        data-de-href="https://google.de/maps/place/Aue, Deutschland"
                        data-en="Aue, Germany"
@@ -1372,6 +1400,7 @@
                        data-ru="Ауэ, Германия"
                        data-ru-href="https://google.ru/maps/place/Ауэ, Германия"
                        href="https://google.com/maps/place/Aue, Deutschland"
+                       rel="noopener"
                        target="_blank"></a>
                 </div>
             </div>
@@ -1400,8 +1429,8 @@
                           data-en="2 years"
                           data-ru="2 года"></span>
                 </div>
-                <div class="d-flex flex-column flex-lg-row flex-sm-column align-items-start justify-content-between p-0 m-0 mt-2">
-                    <a class="badge mx-n1"
+                <div class="d-flex flex-wrap justify-content-between p-0 m-0 mt-2">
+                    <a class="d-flex align-self-center badge mx-n1"
                        data-de="Südliche Föderale Universität (SFedU)"
                        data-de-href="https://sfedu.ru/index_eng.php"
                        data-en="Southern Federal University (SFedU)"
@@ -1409,8 +1438,9 @@
                        data-ru="Южный федеральный университет (ЮФУ)"
                        data-ru-href="https://sfedu.ru"
                        href="https://sfedu.ru/index_eng.php"
+                       rel="noopener"
                        target="_blank"></a>
-                    <a class="badge mx-n1"
+                    <a class="d-flex align-self-center badge mx-n1"
                        data-de="Taganrog, Russland"
                        data-de-href="https://google.de/maps/place/Taganrog, Russland"
                        data-en="Taganrog, Russia"
@@ -1418,6 +1448,7 @@
                        data-ru="Таганрог, Россия"
                        data-ru-href="https://google.ru/maps/place/Таганрог, Россия"
                        href="https://google.com/maps/place/Taganrog, Russland"
+                       rel="noopener"
                        target="_blank"></a>
                 </div>
             </div>
@@ -1481,8 +1512,8 @@
                         data-ru="Повышение уровня немецкого языка"></li>
                 </ul>
             </div>
-            <div class="d-flex flex-column flex-lg-row flex-sm-column align-items-start alert-success justify-content-between rounded-bottom-left rounded-bottom-right px-2 pb-1 pt-2 m-0">
-                <a class="badge mx-n1"
+            <div class="d-flex flex-wrap alert-success justify-content-between rounded-bottom-left rounded-bottom-right px-2 pb-1 pt-2 m-0">
+                <a class="d-flex align-self-center badge mx-n1"
                    data-de="Südliche Föderale Universität (SFedU)"
                    data-de-href="https://sfedu.ru/index_eng.php"
                    data-en="Southern Federal University (SFedU)"
@@ -1490,8 +1521,9 @@
                    data-ru="Южный федеральный университет (ЮФУ)"
                    data-ru-href="https://sfedu.ru"
                    href="https://sfedu.ru/index_eng.php"
+                   rel="noopener"
                    target="_blank"></a>
-                <a class="badge mx-n1"
+                <a class="d-flex align-self-center badge mx-n1"
                    data-de="Taganrog, Russland"
                    data-de-href="https://google.de/maps/place/Taganrog, Russland"
                    data-en="Taganrog, Russia"
@@ -1499,6 +1531,7 @@
                    data-ru="Таганрог, Россия"
                    data-ru-href="https://google.ru/maps/place/Таганрог, Россия"
                    href="https://google.com/maps/place/Taganrog, Russland"
+                   rel="noopener"
                    target="_blank"></a>
             </div>
         </li>
