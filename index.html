@@ -17,9 +17,9 @@
       function (w, d, s, l, i) {
         w[l] = w[l] || [];
         w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-        var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+        var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? `&l=${l}` : '';
         j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        j.src = `https://www.googletagmanager.com/gtm.js?id=${i}${dl}`;
         f.parentNode.insertBefore(j, f);
       }
     )(window, document, 'script', 'dataLayer', 'GTM-K7CV5BZ');
@@ -30,11 +30,11 @@
   <meta content="ie=edge" http-equiv="x-ua-compatible">
   <meta content="Victor Svizev" name="author">
   <meta content="Victor Svizev,Magento,Adobe Commerce,Developer,Backend,Full-Stack,Lebenslauf,CV,Resume,PHP" name="keywords">
-  <meta content="Lebenslauf, CV, Resume, PHP, E-Сommerce" name="description">
+  <meta content="Lebenslauf, CV, Resume, PHP, E-Commerce" name="description">
   <meta content="Victor Svizev. Magento / Adobe Commerce Developer" name="application-name">
   <meta content="Victor Svizev. Magento / Adobe Commerce Developer" name="msapplication-tooltip">
   <meta content="Victor Svizev. Magento / Adobe Commerce Developer" property="og:title"/>
-  <meta content="Lebenslauf, CV, Resume, PHP, E-Сommerce" property="og:description"/>
+  <meta content="Lebenslauf, CV, Resume, PHP, E-Commerce" property="og:description"/>
   <meta content="article" property="og:type"/>
   <meta content="de_DE" property="og:locale:alternate"/>
   <meta content="en_US" property="og:locale"/>
@@ -53,7 +53,7 @@
       "birthDate": "1990-11-16",
       "gender": "male",
       "jobTitle": "Victor Svizev. Magento \/ Adobe Commerce Developer",
-      "Description": "Lebenslauf, CV, Resume, PHP, E-Сommerce",
+      "Description": "Lebenslauf, CV, Resume, PHP, E-Commerce",
       "address": {
         "@type": "PostalAddress",
         "addressLocality": "Aue",
@@ -105,7 +105,7 @@
     :root {
       --bs-danger-text-emphasis: #b02a37;
       --bs-primary-text-emphasis: #0a58ca;
-      --bs-secondary-text-emphasis: rgb(108, 117, 125);
+      --bs-secondary-text-emphasis: #6c757d;
     }
 
     html {
@@ -211,14 +211,6 @@
       background-color: #146c43 !important;
     }
 
-    aside .badge.bg-light-subtle.alert-primary {
-      border-color: #0a58ca !important;
-    }
-
-    aside .badge.bg-light-subtle.alert-success {
-      border-color: #146c43 !important;
-    }
-
     section.text-danger-emphasis a.badge,
     .text-danger-emphasis {
       border-color: var(--bs-danger-border-subtle);
@@ -313,13 +305,17 @@
 <!-- /gtm noscript -->
 
 <nav aria-label="Language selector" class="btn-group-vertical position-absolute w-auto end-0 d-print-none p-0" role="group">
-  <input autocomplete="off" class="btn-check" id="theme" name="theme" type="checkbox"> <label class="btn fs-4 bg-transparent rounded-0 border-0 lh-1 p-0 mb-3" for="theme">☀️</label>
+  <input autocomplete="off" checked class="btn-check" id="de" name="lng" type="radio">
+  <label class="btn btn-outline-primary rounded-0 border-0 py-1" for="de">DE</label>
 
-  <input autocomplete="off" checked class="btn-check" id="de" name="lng" type="radio"> <label class="btn btn-outline-primary rounded-0 border-0 py-1" for="de">DE</label>
+  <input autocomplete="off" class="btn-check" id="en" name="lng" type="radio">
+  <label class="btn btn-outline-primary rounded-0 border-0 py-1" for="en">EN</label>
 
-  <input autocomplete="off" class="btn-check" id="en" name="lng" type="radio"> <label class="btn btn-outline-primary rounded-0 border-0 py-1" for="en">EN</label>
+  <input autocomplete="off" class="btn-check" id="ru" name="lng" type="radio">
+  <label class="btn btn-outline-primary rounded-0 border-0 py-1" for="ru">RU</label>
 
-  <input autocomplete="off" class="btn-check" id="ru" name="lng" type="radio"> <label class="btn btn-outline-primary rounded-0 border-0 py-1" for="ru">RU</label>
+  <input autocomplete="off" class="btn-check" id="theme" name="theme" type="checkbox">
+  <label class="btn fs-4 bg-transparent rounded-0 border-0 lh-1 p-0 mt-3" for="theme">☀️</label>
 </nav>
 
 <aside class="col-12 col-md-5 p-0 m-0 mb-4">
@@ -383,8 +379,8 @@
       <a class="badge alert alert-primary m-0" href="https://www.rabbitmq.com" rel="noopener nofollow" target="_blank">RabbitMQ</a>
       <a class="badge alert alert-primary m-0" href="https://redis.io" rel="noopener nofollow" target="_blank">Redis</a>
       <a class="badge alert alert-primary m-0" href="https://github.com/mailhog/MailHog#overview" rel="noopener nofollow" target="_blank">MailHog</a>
-      <a class="badge alert alert-primary m-0" href="https://developer.adobe.com/commerce/php/coding-standards/php" rel="noopener nofollow" target="_blank">Magento Coding Standard</a>
       <a class="badge alert alert-primary m-0" href="https://developer.adobe.com/commerce/testing/guide" rel="noopener nofollow" target="_blank">Integration / Unit / Static Testing</a>
+      <a class="badge alert alert-primary m-0" href="https://developer.adobe.com/commerce/php/coding-standards/php" rel="noopener nofollow" target="_blank">Magento Coding Standard</a>
       <a class="badge alert alert-primary m-0" href="https://magerun.net" rel="noopener nofollow" target="_blank">n98-magerun2</a>
       <a class="badge alert alert-primary m-0" href="https://plugins.jetbrains.com/plugin/8024-magento-phpstorm" rel="noopener nofollow" target="_blank">Magento PhpStorm Plugin</a>
       <!-- <a class="badge alert alert-primary m-0"
@@ -407,7 +403,7 @@
          href="https://graphql.org"
          rel="noopener nofollow"
          target="_blank">GraphQL</a> -->
-      <!-- <div class="badge alert alert-primary m-0">E-Сommerce</div> -->
+      <!-- <div class="badge alert alert-primary m-0">E-Commerce</div> -->
       <!-- <div class="badge alert alert-primary m-0">SEO</div> -->
     </div>
     <div class="hstack gap-2 flex-wrap p-0 pb-1 mt-3">
@@ -677,7 +673,46 @@
   <div id="remote">
     <section class="bg-primary-subtle text-primary-emphasis p-2">
       <div class="hstack gap-1 flex-wrap align-items-start">
-        <h4 class="m-0" data-de="Magento Backend Developer" data-en="Magento Backend Developer" data-ru="Magento Backend Developer"></h4>
+        <h4 class="m-0">Magento / Adobe Commerce Backend Developer</h4>
+        <div class="d-flex fs-sm" data-de="Remote Arbeit" data-en="Remote work" data-ru="Удаленная работа"></div>
+      </div>
+      <div class="hstack gap-2 flex-wrap mt-2 p-0">
+        <!-- <div class="d-flex fs-sm badge bg-light-subtle m-0" data-de="" data-en="" data-ru=""></div> -->
+        <div class="d-flex fs-sm p-0" data-de="Feb 2023 - bis heute" data-en="Feb 2023 - until today" data-ru="Фев 2023 - по сей день"></div>
+        <a class="d-flex fs-sm badge" data-de="TechDivision GmbH / Kolbermoor / Deutschland" data-en="TechDivision GmbH / Kolbermoor / Germany" data-ru="TechDivision GmbH / Кольбермор / Германия" href="https://www.techdivision.com" rel="noopener nofollow" target="_blank"></a>
+      </div>
+      <!-- <div class="hstack gap-2 flex-wrap p-0 pb-1 mt-3">
+        <div data-de="Schlüsselaspekte" data-en="Key aspects" data-ru="Ключевые аспекты"></div>
+        <div class="badge bg-light-subtle m-0">100% Remote</div>
+        <div class="badge bg-light-subtle m-0" data-de="Magento 2.4" data-en="Magento 2.4" data-ru="Magento 2.4"></div>
+        <a class="badge bg-light-subtle m-0" href="https://vuestorefront.io/pwa-for-magento" rel="noopener nofollow" target="_blank">Vue Storefront Frontend</a>
+        <a class="badge bg-light-subtle m-0" data-de-href="https://de.wikipedia.org/wiki/Qualit%C3%A4tssicherung" data-en-href="https://en.wikipedia.org/wiki/Quality_assurance" data-ru-href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0" href="#" rel="noopener nofollow" target="_blank">QA</a>
+      </div> -->
+      <div class="hstack gap-2 flex-wrap p-0 mt-3">
+        <div data-de="Aufgaben" data-en="Tasks" data-ru="Задачи"></div>
+        <div class="badge bg-light-subtle m-0" data-de="Modulentwicklung" data-en="Module development" data-ru="Разработка модулей"></div>
+        <div class="badge bg-light-subtle m-0" data-de="Erstellen von Dokumentationen" data-en="Preparation of documentation" data-ru="Составление документации"></div>
+        <div class="badge bg-light-subtle m-0" data-de="Fehlerbehebung" data-en="Bug fixing" data-ru="Исправление багов"></div>
+        <a class="badge bg-light-subtle m-0" data-de-href="https://de.wikipedia.org/wiki/Review_(Softwaretest)" data-en-href="https://en.wikipedia.org/wiki/Code_review" data-ru-href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80_%D0%BA%D0%BE%D0%B4%D0%B0" href="#" rel="noopener nofollow" target="_blank">Code review</a>
+      </div>
+      <!-- <div class="hstack gap-2 flex-wrap p-0 pb-1 mt-3">
+        <a class="badge" href="https://en.wikipedia.org/wiki/Scrumban" rel="noopener nofollow" target="_blank">Scrumban</a>
+        <div class="badge bg-light-subtle m-0">Scrum</div>
+        <div class="badge bg-light-subtle m-0">Kanban</div>
+        <div class="badge bg-light-subtle m-0" data-de="Zweiwöchige Sprint" data-en="Two-week sprint" data-ru="Двухнедельный спринт"></div>
+        <div class="badge bg-light-subtle m-0">Sprint goal</div>
+        <div class="badge bg-light-subtle m-0">Sprint backlog</div>
+        <div class="badge bg-light-subtle m-0">Scrumban board</div>
+        <div class="badge bg-light-subtle m-0">Daily</div>
+        <div class="badge bg-light-subtle m-0">Pre-Planning</div>
+        <div class="badge bg-light-subtle m-0">Planning</div>
+        <div class="badge bg-light-subtle m-0">Retro</div>
+      </div> -->
+    </section>
+
+    <section class="bg-primary-subtle text-primary-emphasis p-2 mt-4">
+      <div class="hstack gap-1 flex-wrap align-items-start">
+        <h4 class="m-0">Magento / Adobe Commerce Backend Developer</h4>
         <div class="d-flex fs-sm" data-de="Remote Arbeit" data-en="Remote work" data-ru="Удаленная работа"></div>
       </div>
       <div class="hstack gap-2 flex-wrap mt-2 p-0">
@@ -692,14 +727,14 @@
         <a class="badge bg-light-subtle m-0" href="https://vuestorefront.io/pwa-for-magento" rel="noopener nofollow" target="_blank">Vue Storefront Frontend</a>
         <a class="badge bg-light-subtle m-0" data-de-href="https://de.wikipedia.org/wiki/Qualit%C3%A4tssicherung" data-en-href="https://en.wikipedia.org/wiki/Quality_assurance" data-ru-href="https://ru.wikipedia.org/wiki/%D0%9E%D0%B1%D0%B5%D1%81%D0%BF%D0%B5%D1%87%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%B0" href="#" rel="noopener nofollow" target="_blank">QA</a>
       </div> -->
-      <div class="hstack gap-2 flex-wrap p-0 pb-1 mt-3">
+      <div class="hstack gap-2 flex-wrap p-0 mt-3">
         <div data-de="Aufgaben" data-en="Tasks" data-ru="Задачи"></div>
         <div class="badge bg-light-subtle m-0" data-de="Integration von Drittanbieterdiensten" data-en="Integration of third party services" data-ru="Интеграция сторонних сервисов"></div>
         <div class="badge bg-light-subtle m-0" data-de="Drittanbieter Modulanpassung" data-en="Third party module customization" data-ru="Адаптирование сторонних модулей"></div>
-        <div class="badge bg-light-subtle m-0" data-de="Entwicklung benutzerdefinierter Module" data-en="Custom modules development" data-ru="Разработка кастомных модулей"></div>
-        <div class="badge bg-light-subtle m-0" data-de="Fehler finden und beheben" data-en="Finding and fixing bugs" data-ru="Поиск и исправление багов"></div>
-        <a class="badge bg-light-subtle m-0" data-de-href="https://de.wikipedia.org/wiki/Review_(Softwaretest)" data-en-href="https://en.wikipedia.org/wiki/Code_review" data-ru-href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80_%D0%BA%D0%BE%D0%B4%D0%B0" href="#" rel="noopener nofollow" target="_blank">Code review</a>
+        <div class="badge bg-light-subtle m-0" data-de="Modulentwicklung" data-en="Module development" data-ru="Разработка модулей"></div>
         <div class="badge bg-light-subtle m-0" data-de="Erstellen von Dokumentationen" data-en="Preparation of documentation" data-ru="Составление документации"></div>
+        <div class="badge bg-light-subtle m-0" data-de="Fehlerbehebung" data-en="Bug fixing" data-ru="Исправление багов"></div>
+        <a class="badge bg-light-subtle m-0" data-de-href="https://de.wikipedia.org/wiki/Review_(Softwaretest)" data-en-href="https://en.wikipedia.org/wiki/Code_review" data-ru-href="https://ru.wikipedia.org/wiki/%D0%9F%D1%80%D0%BE%D1%81%D0%BC%D0%BE%D1%82%D1%80_%D0%BA%D0%BE%D0%B4%D0%B0" href="#" rel="noopener nofollow" target="_blank">Code review</a>
       </div>
       <!-- <div class="hstack gap-2 flex-wrap p-0 pb-1 mt-3">
         <a class="badge" href="https://en.wikipedia.org/wiki/Scrumban" rel="noopener nofollow" target="_blank">Scrumban</a>
@@ -734,15 +769,15 @@
         <div class="badge bg-light-subtle m-0" data-de="Drei Magento 2 Shops" data-en="Three Magento 2 stores" data-ru="Три Magento 2 магазина"></div>
         <div class="badge bg-light-subtle m-0" data-de="70 000 Produkte im Shop" data-en="70 000 products in a store" data-ru="70 000 товаров в магазине"></div>
       </div> -->
-      <div class="hstack gap-2 flex-wrap p-0 pb-1 mt-3">
+      <div class="hstack gap-2 flex-wrap p-0 mt-3">
         <div data-de="Aufgaben" data-en="Tasks" data-ru="Задачи"></div>
         <div class="badge bg-light-subtle m-0" data-de="Drittanbieter Modulanpassung" data-en="Third party module customization" data-ru="Адаптирование сторонних модулей"></div>
-        <div class="badge bg-light-subtle m-0" data-de="Entwicklung benutzerdefinierter Module" data-en="Custom modules development" data-ru="Разработка кастомных модулей"></div>
-        <div class="badge bg-light-subtle m-0" data-de="Fehler finden und beheben" data-en="Finding and fixing bugs" data-ru="Поиск и исправление багов"></div>
+        <div class="badge bg-light-subtle m-0" data-de="Modulentwicklung" data-en="Module development" data-ru="Разработка модулей"></div>
+        <div class="badge bg-light-subtle m-0" data-de="Fehlerbehebung" data-en="Bug fixing" data-ru="Исправление багов"></div>
+        <a class="badge bg-light-subtle m-0" data-de="Magento 1.9 zu 2.4 Migration" data-de-href="https://experienceleague.adobe.com/docs/commerce-operations/tools/data-migration/how-migration-works.html?lang=de" data-en="Magento 1.9 to 2.4 migration" data-en-href="https://experienceleague.adobe.com/docs/commerce-operations/tools/data-migration/how-migration-works.html?lang=en" data-ru="Миграция Magento 1.9 на 2.4" data-ru-href="https://experienceleague.adobe.com/docs/commerce-operations/tools/data-migration/how-migration-works.html?lang=en" href="#" rel="noopener nofollow" target="_blank"></a>
         <div class="badge bg-light-subtle m-0" data-de="Erstellung von Magento Shop" data-en="Creation of Magento store" data-ru="Создание Magento магазина"></div>
         <div class="badge bg-light-subtle m-0" data-de="Designänderung" data-en="Design change" data-ru="Изменение дизайна"></div>
         <div class="badge bg-light-subtle m-0" data-de="Content-Pflege" data-en="Content-Management" data-ru="Контент-менеджмент"></div>
-        <a class="badge bg-light-subtle m-0" data-de="Magento 1.9 zu 2.4 Migration" data-de-href="https://experienceleague.adobe.com/docs/commerce-operations/tools/data-migration/how-migration-works.html?lang=de" data-en="Magento 1.9 to 2.4 migration" data-en-href="https://experienceleague.adobe.com/docs/commerce-operations/tools/data-migration/how-migration-works.html?lang=en" data-ru="Миграция Magento 1.9 на 2.4" data-ru-href="https://experienceleague.adobe.com/docs/commerce-operations/tools/data-migration/how-migration-works.html?lang=en" href="#" rel="noopener nofollow" target="_blank"></a>
         <div class="badge bg-light-subtle m-0">Support</div>
         <!-- <div class="badge bg-light-subtle m-0"
              data-de="Serverkonfiguration"
@@ -771,7 +806,7 @@
 
   <div class="hstack gap-1 flex-wrap align-items-start mt-3 mb-2">
     <h3 class="m-0" data-de="Weiterbildung" data-en="Further education" data-ru="Дополнительное образование"></h3>
-    <div class="d-flex fs-sm" data-de="Nur relevante Aspekte" data-en="Only rrelevant aspects" data-ru="Только значимые аспекты"></div>
+    <div class="d-flex fs-sm" data-de="Nur relevante Aspekte" data-en="Only relevant aspects" data-ru="Только значимые аспекты"></div>
   </div>
   <section class="bg-info-subtle text-info-emphasis p-2">
     <div class="hstack gap-1 flex-wrap align-items-start">
@@ -857,13 +892,13 @@
     </div>
   </section>
 
-  <section class="bg-light-subtle text-secondary-emphasis p-2 mt-3 m-0">
+  <section class="bg-body-secondary text-secondary-emphasis p-2 mt-4">
     <div class="hstack gap-1 flex-wrap align-items-start" id="vacation-semester">
       <h4 class="m-0" data-de="Urlaubssemester / Umzug nach Deutschland" data-en="Vacation semester / Moving to Germany" data-ru="Академический отпуск / Переезд в Германию"></h4>
       <div class="d-flex fs-sm" data-de="Deutsche Staatsangehörigkeit erhalten" data-en="German citizenship received" data-ru="Получено немецкое гражданство"></div>
     </div>
     <div class="hstack gap-2 flex-wrap mt-2 p-0">
-      <div class="d-flex fs-sm badge border m-0" data-de="1 Jahr" data-en="1 year" data-ru="1 год"></div>
+      <div class="d-flex fs-sm badge bg-white m-0" data-de="1 Jahr" data-en="1 year" data-ru="1 год"></div>
       <div class="d-flex fs-sm p-0" data-de="Feb 2009 - Feb 2010" data-en="Feb 2009 - Feb 2010" data-ru="Фев 2009 - Фев 2010"></div>
       <div class="d-flex fs-sm badge" data-de="Deutschland" data-en="Germany" data-ru="Германия"></div>
     </div>
@@ -874,19 +909,19 @@
   <section class="hstack gap-2 flex-wrap bg-danger-subtle text-danger-emphasis p-2 m-0">
     <div class="badge text-bg-danger">DE</div>
     <div class="mx-1">JavaScript ist in Ihrem Webbrowser deaktiviert!</div>
-    <a class="badge text-bg-danger" href="https://enable-javascript.com/de" rel="noopener nofollow" target="_blank">enable-javascript.com/de</a>
+    <a class="badge text-bg-danger" href="https://enable-javascript.com/de/" rel="noopener nofollow" target="_blank" title="enable-javascript.com">enable-javascript.com/de</a>
   </section>
 
   <section class="hstack gap-2 flex-wrap bg-danger-subtle text-danger-emphasis p-2 m-0">
     <div class="badge text-bg-danger">EN</div>
     <div>JavaScript is disabled in your web browser!</div>
-    <a class="badge text-bg-danger" href="https://enable-javascript.com" rel="noopener nofollow" target="_blank">enable-javascript.com</a>
+    <a class="badge text-bg-danger" href="https://enable-javascript.com" rel="noopener nofollow" target="_blank" title="enable-javascript.com">enable-javascript.com</a>
   </section>
 
   <section class="hstack gap-2 flex-wrap bg-danger-subtle text-danger-emphasis p-2 m-0">
     <div class="badge text-bg-danger">RU</div>
     <div class="mx-1">JavaScript отключен в Вашем браузере!</div>
-    <a class="badge text-bg-danger" href="https://enable-javascript.com/ru" rel="noopener nofollow" target="_blank">enable-javascript.com/ru</a>
+    <a class="badge text-bg-danger" href="https://enable-javascript.com/ru/" rel="noopener nofollow" target="_blank" title="enable-javascript.com">enable-javascript.com/ru</a>
   </section>
 
   <style>
@@ -910,8 +945,8 @@
 
   $(function () {
     $('#theme').on('click', function () {
-      let $html = $('#html');
-      let $theme = $('[for="theme"]');
+      const $html = $('#html');
+      const $theme = $('[for="theme"]');
 
       if ($('#theme').is(':checked')) {
         $html.attr('data-bs-theme', 'dark');
@@ -929,7 +964,7 @@
 
   $(function () {
     let lng = 'de';
-    let lngParameter = (
+    const lngParameter = (
       window.location.search
     ).slice(1);
 
@@ -937,16 +972,16 @@
       lng = lngParameter;
     } else {
       /* Get user language code */
-      let navigatorLanguage = navigator.language || navigator.userLanguage;
-      let userLng = navigatorLanguage.split('-')[0];
+      const navigatorLanguage = navigator.language || navigator.systemLanguage;
+      const userLng = navigatorLanguage.split('-')[0];
 
       /* User language code among the supported? */
-      if ($('#' + userLng).length) {
+      if ($(`#${userLng}`).length) {
         lng = userLng;
       }
     }
 
-    $('#' + lng).attr('checked', true).switchLng();
+    $(`#${lng}`).attr('checked', true).switchLng();
 
     $('[name="lng"]').on('click', function () {
       $(this).switchLng();
@@ -954,17 +989,17 @@
   });
 
   $.fn.switchLng = function () {
-    let lngCode = $(this).attr('id');
+    const lngCode = $(this).attr('id');
 
     if ($(this).is(':checked')) {
-      window.history.replaceState('', '', '?' + lngCode);
+      window.history.replaceState('', '', `?${lngCode}`);
 
-      $('[data-' + lngCode + ']').each(function () {
-        $(this).html($(this).attr('data-' + lngCode));
+      $(`[data-${lngCode}]`).each(function () {
+        $(this).html($(this).attr(`data-${lngCode}`));
       });
 
-      $('[data-' + lngCode + '-href]').each(function () {
-        $(this).attr('href', $(this).attr('data-' + lngCode + '-href'));
+      $(`[data-${lngCode}-href]`).each(function () {
+        $(this).attr('href', $(this).attr(`data-${lngCode}-href`));
       });
     }
   };
