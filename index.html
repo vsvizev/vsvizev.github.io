@@ -56,9 +56,8 @@
       "Description": "Lebenslauf, CV, Resume, PHP, E-Commerce",
       "address": {
         "@type": "PostalAddress",
-        "addressLocality": "Aue",
+        "addressLocality": "Dresden",
         "addressRegion": "Sachsen",
-        "postalCode": "08280",
         "addressCountry": "Germany"
       },
       "email": "victor.svizev@gmail.com",
@@ -183,8 +182,8 @@
     }
 
     .photo {
-      height: 150px;
-      width: 150px;
+      height: 130px;
+      width: 130px;
     }
 
     .fs-sm {
@@ -194,11 +193,6 @@
     .flex-column .badge:nth-child(2),
     .fs-sm {
       white-space: break-spaces;
-    }
-
-    h3 + .fs-sm,
-    h4 + .fs-sm {
-      line-height: 1;
     }
 
     .text-bg-danger {
@@ -212,11 +206,11 @@
 
     .text-bg-info {
       background-color: #087990 !important;
-      color: #fff !important;
+      color: var(--bs-white) !important;
     }
 
     .text-bg-success {
-      background-color: #146c43 !important;
+      background-color: #146942 !important;
     }
 
     section.text-danger-emphasis a.badge,
@@ -258,6 +252,13 @@
 
   <!-- media styles -->
   <style>
+    @media only screen and (min-width: 769px) {
+      h3 + .fs-sm,
+      h4 + .fs-sm {
+        line-height: 1;
+      }
+    }
+
     @media only screen and (max-width: 768px) {
       html {
         font-size: 118.75% !important;
@@ -271,8 +272,8 @@
       }
 
       .photo {
-        height: 225px;
-        width: 225px;
+        height: 250px;
+        width: 250px;
       }
     }
   </style>
@@ -395,10 +396,10 @@
       <a class="badge alert alert-primary m-0" href="https://github.com/mailhog/MailHog#overview" rel="noopener nofollow" target="_blank">MailHog</a>
       <a class="badge alert alert-primary m-0" href="https://developer.adobe.com/commerce/webapi/get-started/rest_front" rel="noopener nofollow" target="_blank">REST API</a>
       <a class="badge alert alert-primary m-0" href="https://www.postman.com/product/what-is-postman" rel="noopener nofollow" target="_blank">Postman</a>
-      <a class="badge alert alert-primary m-0" href="https://magerun.net" rel="noopener nofollow" target="_blank">n98-magerun2</a>
       <a class="badge alert alert-primary m-0" href="https://developer.adobe.com/commerce/testing/guide" rel="noopener nofollow" target="_blank">Integration / Unit / Static Testing</a>
       <a class="badge alert alert-primary m-0" href="https://developer.adobe.com/commerce/php/coding-standards/php" rel="noopener nofollow" target="_blank">Magento Coding Standard</a>
       <a class="badge alert alert-primary m-0" href="https://plugins.jetbrains.com/plugin/8024-magento-phpstorm" rel="noopener nofollow" target="_blank">Magento PhpStorm Plugin</a>
+      <a class="badge alert alert-primary m-0" href="https://magerun.net" rel="noopener nofollow" target="_blank">n98-magerun2</a>
       <!-- <a class="badge alert alert-primary m-0"
          href="https://httpd.apache.org"
          rel="noopener nofollow"
@@ -668,7 +669,7 @@
 <main class="col-12 col-md-7 p-0 m-0">
   <section class="bg-danger-subtle text-danger-emphasis p-2" id="willingness-to-learn">
     <div class="hstack gap-2 flex-wrap align-items-start">
-      <h3 class="m-0" data-de="Vendor in Magento Marketplace" data-en="Vendor in Magento Marketplace" data-ru="Vendor в Magento Marketplace"></h3>
+      <h3 class="m-0" data-de="Vendor auf Magento Marketplace" data-en="Vendor on Magento Marketplace" data-ru="Vendor на Magento Marketplace"></h3>
       <div class="d-flex fs-sm" data-de="Als Training in der Freizeit" data-en="As a free time study" data-ru="В качестве обучения в свободное время"></div>
     </div>
     <div class="hstack column-gap-2 row-gap-2 flex-wrap mt-3 p-0">
@@ -679,7 +680,7 @@
     </div>
   </section>
 
-  <div class="hstack gap-2 flex-wrap align-items-start mt-4 mb-2">
+  <div class="hstack gap-2 flex-wrap align-items-start mt-5 mb-2">
     <h3 class="m-0" data-de="Berufserfahrung" data-en="Work experience" data-ru="Профессиональный опыт"></h3>
     <div class="d-flex fs-sm" data-de="Einschliesslich Praktikum" data-en="Including internship" data-ru="Включая практику"></div>
   </div>
@@ -791,7 +792,7 @@
     </section>
   </div>
 
-  <section class="bg-primary-subtle text-primary-emphasis p-2 mt-4">
+  <section class="bg-primary-subtle text-primary-emphasis p-2 mt-1">
     <div class="hstack gap-2 flex-wrap align-items-start">
       <h4 class="m-0" data-de="Magento Developer Praktikant" data-en="Magento Developer intern" data-ru="Magento Developer практикант"></h4>
       <div class="d-flex fs-sm" data-de="Vorzeitig angestellt" data-en="Hired ahead of schedule" data-ru="Нанят досрочно"></div>
@@ -805,7 +806,7 @@
 
   <div class="hstack gap-2 flex-wrap align-items-start mt-4 mb-2">
     <h3 class="m-0" data-de="Weiterbildung" data-en="Further education" data-ru="Дополнительное образование"></h3>
-    <div class="d-flex fs-sm" data-de="Nur relevante Aspekte" data-en="Only relevant aspects" data-ru="Только значимые аспекты"></div>
+    <!-- <div class="d-flex fs-sm" data-de="Nur relevante Aspekte" data-en="Only relevant aspects" data-ru="Только значимые аспекты"></div> -->
   </div>
   <section class="bg-info-subtle text-info-emphasis p-2">
     <div class="hstack gap-2 flex-wrap align-items-start">
@@ -887,7 +888,7 @@
     </div>
   </section>
 
-  <section class="bg-body-secondary text-secondary-emphasis p-2 my-4">
+  <section class="bg-body-secondary text-secondary-emphasis p-2 mt-1 mb-4">
     <div class="hstack gap-2 flex-wrap align-items-start" id="vacation-semester">
       <h4 class="m-0" data-de="Urlaubssemester / Umzug nach Deutschland" data-en="Vacation semester / Moving to Germany" data-ru="Академический отпуск / переезд в Германию"></h4>
       <div class="d-flex fs-sm" data-de="Deutsche Staatsangehörigkeit erhalten" data-en="German citizenship received" data-ru="Получено немецкое гражданство"></div>
