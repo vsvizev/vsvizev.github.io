@@ -201,6 +201,11 @@
       white-space: break-spaces;
     }
 
+    h3 + .fs-sm,
+    h4 + .fs-sm {
+      line-height: 1;
+    }
+
     .text-bg-danger {
       background-color: #b02a37 !important;
     }
@@ -301,6 +306,14 @@
 
     .col-md-7 {
       max-width: 58.333333%;
+    }
+
+    main section,
+    noscript section,
+    a.badge,
+    a.badge:focus,
+    a.badge:hover {
+      border-left-width: 0 !important;
     }
   </style>
   <!-- /print styles -->
@@ -422,9 +435,9 @@
       </div>
       <a class="badge alert alert-primary m-0" href="https://getcomposer.org/doc/00-intro.md#introduction" rel="noopener nofollow" target="_blank">Composer</a>
       <a class="badge alert alert-primary m-0" href="https://xdebug.org" rel="noopener nofollow" target="_blank">Xdebug</a>
+      <a class="badge alert alert-primary m-0" href="https://phpmd.org" rel="noopener nofollow" target="_blank">PHP Mess Detector</a>
       <a class="badge alert alert-primary m-0" href="https://github.com/squizlabs/PHP_CodeSniffer#about" rel="noopener nofollow" target="_blank">PHP_CodeSniffer</a>
       <a class="badge alert alert-primary m-0" href="https://phpstan.org" rel="noopener nofollow" target="_blank">PHPStan</a>
-      <a class="badge alert alert-primary m-0" href="https://phpmd.org" rel="noopener nofollow" target="_blank">PHP Mess Detector</a>
       <a class="badge alert alert-primary m-0" href="https://cs.symfony.com/#php-coding-standards-fixer" rel="noopener nofollow" target="_blank">PHP CS Fixer</a>
       <a class="badge alert alert-primary m-0" data-de-href="https://jetbrains.com/de-de/phpstorm" data-en-href="https://jetbrains.com/phpstorm" data-ru-href="https://jetbrains.com/ru-ru/phpstorm" href="#" rel="noopener nofollow" target="_blank">PhpStorm</a>
       <!-- <div class="badge alert alert-primary m-0">CI/CD</div> -->
@@ -661,8 +674,8 @@
 <main class="col-12 col-md-7 p-0 m-0">
   <section class="bg-danger-subtle text-danger-emphasis p-2" id="willingness-to-learn">
     <div class="hstack gap-1 flex-wrap align-items-start">
-      <h3 class="m-0" data-de="Vendor in Magento Marketplace als Training in der Freizeit" data-en="Vendor in Magento Marketplace as a free time study" data-ru="Vendor в Magento Marketplace в качестве обучения в свободное время"></h3>
-      <!-- <div class="d-flex fs-sm" data-de="Als Training in der Freizeit" data-en="As a free time study" data-ru="В качестве обучения в свободное время"></div> -->
+      <h3 class="m-0" data-de="Vendor in Magento Marketplace" data-en="Vendor in Magento Marketplace" data-ru="Vendor в Magento Marketplace"></h3>
+      <div class="d-flex fs-sm" data-de="Als Training in der Freizeit" data-en="As a free time study" data-ru="В качестве обучения в свободное время"></div>
     </div>
     <div class="hstack column-gap-2 row-gap-2 flex-wrap mt-2 p-0">
       <a class="badge text-bg-danger m-0" href="https://marketplace.magento.com/partner/VCT" rel="noopener nofollow" target="_blank">VCT vendor</a>
