@@ -99,6 +99,12 @@
             --bs-danger-text-emphasis: #b02a37;
             --bs-primary-text-emphasis: #0a58ca;
             --bs-secondary-text-emphasis: #6c757d;
+            --bs-primary-bg-subtle: #e0ecff;
+            --bs-info-bg-subtle: #e3f8fc;
+            --bs-danger-bg-subtle: #fbe5e7;
+            --bs-success-bg-subtle: #e7f3ee;
+            --bs-secondary-bg-subtle: #f3f5f6;
+            /* --bs-info-border-subtle: #9eeaf9; */
         }
 
         html {
@@ -146,14 +152,14 @@
         main section,
         noscript section {
             border-left-style: solid;
-            border-left-width: .3rem !important;
+            border-left-width: .35rem !important;
         }
 
         a.badge,
         a.badge:focus,
         a.badge:hover {
             border-left-style: solid;
-            border-left-width: .2rem !important;
+            border-left-width: .225rem !important;
         }
 
         .badge {
@@ -194,22 +200,25 @@
             white-space: break-spaces;
         }
 
+        [name='lng']:checked + .btn {
+            background-color: #545b62 !important;
+        }
+
         .text-bg-danger {
             background-color: #b02a37 !important;
         }
 
-        [name='lng']:checked + .btn,
         .text-bg-primary {
             background-color: #0a58ca !important;
         }
 
         .text-bg-info {
-            background-color: #087990 !important;
+            background-color: #087a90 !important;
             color: var(--bs-white) !important;
         }
 
         .text-bg-success {
-            background-color: #146942 !important;
+            background-color: #156f46 !important;
         }
 
         section.text-danger-emphasis a,
@@ -339,13 +348,13 @@
 
 <nav aria-label="Language selector" class="btn-group-vertical position-absolute w-auto end-0 d-print-none position-md-fixed p-0" role="navigation">
     <input autocomplete="off" checked class="btn-check" id="de" name="lng" type="radio">
-    <label class="btn btn-outline-primary rounded-0 border-0 py-1" for="de">DE</label>
+    <label class="btn btn-outline-secondary rounded-0 border-0 py-1" for="de">DE</label>
 
     <input autocomplete="off" class="btn-check" id="en" name="lng" type="radio">
-    <label class="btn btn-outline-primary rounded-0 border-0 py-1" for="en">EN</label>
+    <label class="btn btn-outline-secondary rounded-0 border-0 py-1" for="en">EN</label>
 
     <input autocomplete="off" class="btn-check" id="ru" name="lng" type="radio">
-    <label class="btn btn-outline-primary rounded-0 border-0 py-1" for="ru">RU</label>
+    <label class="btn btn-outline-secondary rounded-0 border-0 py-1" for="ru">RU</label>
 
     <!-- <input autocomplete="off" class="btn-check" id="theme" name="theme" type="checkbox">
     <label class="btn fs-4 bg-transparent rounded-0 border-0 lh-1 p-0 mt-3" for="theme">☀️</label> -->
@@ -755,7 +764,7 @@
         </div>
     </section>
 
-    <section class="bg-body-secondary text-secondary-emphasis p-2 mt-4" id="vacation-semester">
+    <section class="bg-secondary-subtle text-secondary-emphasis p-2 mt-4" id="vacation-semester">
         <div class="hstack gap-2 flex-wrap align-items-start">
             <h4 class="m-0" data-de="Urlaubssemester / Umzug nach Deutschland" data-en="Vacation semester / Moving to Germany" data-ru="Академический отпуск / переезд в Германию"></h4>
             <div class="d-flex fs-sm" data-de="Deutsche Staatsangehörigkeit erhalten" data-en="German citizenship received" data-ru="Получено немецкое гражданство"></div>
