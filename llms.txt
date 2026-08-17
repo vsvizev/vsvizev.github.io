@@ -1,0 +1,32 @@
+# Victor Svizev
+
+> Senior Magento / Adobe Commerce developer with 9+ years of experience in commercial extension development, platform upgrades, and compatibility engineering, with a strong background in remote work. Independently designs, builds, and sells Magento 2 extensions on the Adobe Commerce Marketplace, with 100+ paid purchases to date. Experienced in modernizing legacy Magento systems and integrating them with modern technologies, including Hyvä and Adobe App Builder.
+
+## Resume
+
+- [CV / Resume](https://vsvizev.github.io/): Full resume, including experience, education, technical expertise, languages, and certifications.
+
+## Experience
+
+- Senior Magento / Adobe Commerce developer at TechDivision GmbH (remote, Feb 2023 – present): maintains and evolves a large ecosystem of Magento extensions with Symfony-based components used across dozens of production client projects; owns platform upgrades, Hyvä compatibility modules, and an Adobe App Builder application published on Adobe Exchange.
+- Backend Magento / Adobe Commerce developer at netz98 GmbH (remote, Aug 2022 – Jan 2023): backend development across three Magento 2 B2B and B2C client projects.
+- Full-Stack Magento / Adobe Commerce developer at UNlimited world trade union GmbH (remote since 2018, Feb 2017 – Jul 2022): frontend and backend development for in-house Magento B2B and B2C stores, including Magento 1 to Magento 2 migrations.
+
+## Projects
+
+- [VCT extensions documentation](https://vct-vendor.github.io/): Documentation for commercial Magento 2 extensions designed, developed, and maintained on the Adobe Commerce Marketplace since 2021, with 100+ paid purchases to date.
+- [Adobe Commerce Marketplace vendor profile](https://commercemarketplace.adobe.com/partner/VCT): Vendor profile for VCT.
+
+## Education
+
+- Magister, Management in technical systems — Southern Federal University, Russia (Sep 2007 – Sep 2014).
+
+## Certifications
+
+- [Adobe Commerce Developer Expert](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7): Issued Jun 2026, expires Jun 2028.
+
+## Contact
+
+- Email: victor.svizev@gmail.com
+- [LinkedIn](https://www.linkedin.com/in/victor-svizev)
+- Location: Dresden, Germany (prefers remote roles)
