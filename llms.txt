@@ -1,32 +1,29 @@
 # Victor Svizev
 
-> Senior Magento / Adobe Commerce developer with 9+ years of experience in commercial extension development, platform upgrades, and compatibility engineering, with a strong background in remote work. Independently designs, builds, and sells Magento 2 extensions on the Adobe Commerce Marketplace, with 100+ paid purchases to date. Experienced in modernizing legacy Magento systems and integrating them with modern technologies, including Hyvä and Adobe App Builder.
+> Senior Magento / Adobe Commerce Developer with 9+ years of experience in Magento 2 development, based in Dresden, Germany. Independent vendor of commercial Magento 2 extensions on the Adobe Commerce Marketplace under the account VCT.
+
+Victor Svizev works as a Senior Magento / Adobe Commerce Developer at TechDivision GmbH (Germany, remote, since Feb 2023), and independently designs, develops, and sells Magento 2 extensions on the Adobe Commerce Marketplace under the vendor account VCT, with 100+ sales across 4 extensions and 1.5K+ free downloads since 2021. He holds the Adobe Commerce Developer Expert certification (AD0-E725, issued Jun 2026, expires Jun 2028). He is fluent in Russian (native), English, and German (professional working proficiency, telc B2).
 
 ## Resume
 
-- [CV / Resume](https://vsvizev.github.io/): Full resume, including experience, education, technical expertise, languages, and certifications.
-
-## Experience
-
-- Senior Magento / Adobe Commerce developer at TechDivision GmbH (remote, Feb 2023 – present): maintains and evolves a large ecosystem of Magento extensions with Symfony-based components used across dozens of production client projects; owns platform upgrades, Hyvä compatibility modules, and an Adobe App Builder application published on Adobe Exchange.
-- Backend Magento / Adobe Commerce developer at netz98 GmbH (remote, Aug 2022 – Jan 2023): backend development across three Magento 2 B2B and B2C client projects.
-- Full-Stack Magento / Adobe Commerce developer at UNlimited world trade union GmbH (remote since 2018, Feb 2017 – Jul 2022): frontend and backend development for in-house Magento B2B and B2C stores, including Magento 1 to Magento 2 migrations.
+- [CV / Resume (this page)](https://vsvizev.github.io): Full resume — summary, work experience, projects, education, technical skills, languages, and certifications.
 
 ## Projects
 
-- [VCT extensions documentation](https://vct-vendor.github.io/): Documentation for commercial Magento 2 extensions designed, developed, and maintained on the Adobe Commerce Marketplace since 2021, with 100+ paid purchases to date.
-- [Adobe Commerce Marketplace vendor profile](https://commercemarketplace.adobe.com/partner/VCT): Vendor profile for VCT.
+- [VCT — Adobe Commerce Marketplace vendor](https://commercemarketplace.adobe.com/partner/VCT): Independent vendor account with commercial Magento 2 extensions.
+- [VCT extension documentation](https://vct-vendor.github.io): Documentation for Magento 2 extensions published under the VCT vendor account.
 
-## Education
+## Profiles
 
-- Magister, Management in technical systems — Southern Federal University, Russia (Sep 2007 – Sep 2014).
+- [GitHub](https://github.com/vctsvz)
+- [LinkedIn](https://www.linkedin.com/in/victor-svizev)
+- [Xing](https://xing.com/profile/victor_svizev)
 
 ## Certifications
 
-- [Adobe Commerce Developer Expert](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7): Issued Jun 2026, expires Jun 2028.
+- [AD0-E725 Adobe Commerce Developer Expert — verification](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7): Issued Jun 2026, expires Jun 2028, recognized by Adobe.
 
 ## Contact
 
 - Email: victor.svizev@gmail.com
-- [LinkedIn](https://www.linkedin.com/in/victor-svizev)
-- Location: Dresden, Germany (prefers remote roles)
+- Location: Dresden, Germany — prefers remote roles
