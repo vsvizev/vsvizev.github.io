@@ -1,29 +1,54 @@
 # Victor Svizev
 
-> Senior Magento / Adobe Commerce Developer with 9+ years of experience in Magento 2 development, based in Dresden, Germany. Independent vendor of commercial Magento 2 extensions on the Adobe Commerce Marketplace under the account VCT.
+> Senior Magento / Adobe Commerce Developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä, and Adobe App Builder.
 
-Victor Svizev works as a Senior Magento / Adobe Commerce Developer at TechDivision GmbH (Germany, remote, since Feb 2023), and independently designs, develops, and sells Magento 2 extensions on the Adobe Commerce Marketplace under the vendor account VCT, with 100+ sales across 4 extensions and 1.5K+ free downloads since 2021. He holds the Adobe Commerce Developer Expert certification (AD0-E725, issued Jun 2026, expires Jun 2028). He is fluent in Russian (native), English, and German (professional working proficiency, telc B2).
-
-## Resume
-
-- [CV / Resume (this page)](https://vsvizev.github.io): Full resume — summary, work experience, projects, education, technical skills, languages, and certifications.
-
-## Projects
-
-- [VCT — Adobe Commerce Marketplace vendor](https://commercemarketplace.adobe.com/partner/VCT): Independent vendor account with commercial Magento 2 extensions.
-- [VCT extension documentation](https://vct-vendor.github.io): Documentation for Magento 2 extensions published under the VCT vendor account.
-
-## Profiles
-
-- [GitHub](https://github.com/vctsvz)
-- [LinkedIn](https://www.linkedin.com/in/victor-svizev)
-- [Xing](https://xing.com/profile/victor_svizev)
-
-## Certifications
-
-- [AD0-E725 Adobe Commerce Developer Expert — verification](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7): Issued Jun 2026, expires Jun 2028, recognized by Adobe.
+Victor Svizev is a Senior Magento / Adobe Commerce Developer based in Dresden, Germany, currently working at TechDivision GmbH. He independently designs, builds, and sells Magento extensions on the Adobe Commerce Marketplace under the vendor name VCT, with 100+ sales across 4 extensions and 1500+ free downloads. He holds the AD0-E725 Adobe Commerce Developer Expert certification and prefers remote roles.
 
 ## Contact
 
-- Email: victor.svizev@gmail.com
-- Location: Dresden, Germany — prefers remote roles
+- Email: [victor.svizev@gmail.com](mailto:victor.svizev@gmail.com)
+- LinkedIn: [linkedin.com/in/victor-svizev](https://linkedin.com/in/victor-svizev)
+- Xing: [xing.com/profile/victor_svizev](https://xing.com/profile/victor_svizev)
+- Portfolio: [vsvizev.github.io](https://vsvizev.github.io)
+- Location: Dresden, Germany (prefers remote roles)
+
+## Projects
+
+- [VCT – Adobe Commerce Marketplace profile](https://commercemarketplace.adobe.com/partner/VCT): Independent Magento extension vendor since September 2021. 100+ sales across 4 extensions, 1500+ free downloads. Designs, develops, and maintains commercial extensions end-to-end — concept, implementation, review, publication on Adobe Commerce Marketplace, documentation, releases, and customer support.
+- [VCT Extension Documentation](https://vct-vendor.github.io): End-user documentation for VCT's Magento extensions.
+
+## Experience
+
+- Senior Magento / Adobe Commerce Developer at TechDivision GmbH, Germany (Feb 2023–present, remote): Maintains and evolves a large ecosystem of Magento extensions including Symfony-based components; prepares technical concepts and documentation; develops new modules and features; expands automated test coverage; conducts code reviews; maintains release pipelines and versioning; keeps extensions compatible with new Magento/PHP releases; owns major Adobe Commerce platform upgrades for customers; develops Hyvä Theme/Checkout compatibility modules; built an Adobe App Builder application published on Adobe Exchange.
+- Backend Adobe Commerce Developer at netz98 GmbH, Germany (Aug 2022–Jan 2023, remote): Contributed to 2 internal teams and 3 client projects (B2B and B2C); developed features, fixed bugs, customized and integrated third-party extensions/services; expanded test coverage and participated in code reviews.
+- Full-Stack Magento Developer at UNlimited world trade union GmbH, Germany (Feb 2017–Jul 2022, remote since Jan 2018): Owned end-to-end development (frontend, backend, test environments) for 4 in-house Magento B2B/B2C stores in a two-person team; led migrations from Magento 1.7 to 1.9 and 1.9 to 2.3; maintained and modernized legacy customizations and improved production reliability.
+
+## Education
+
+- Magister, Control in Technical Systems — Southern Federal University, Russia (Sep 2007–Sep 2014)
+
+## Certifications
+
+- [AD0-E725 Adobe Commerce Developer Expert](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7) — Adobe
+
+## Technical Skills
+
+- Magento / Adobe Commerce: extension development, platform upgrades, compatibility engineering, core architecture and advanced debugging, Hyvä Theme compatibility
+- Platform and environments: Composer, Docker, OpenSearch/Elasticsearch, Valkey/Redis
+- Backend and integration: PHP, Symfony-based components, REST API, RabbitMQ, MariaDB/MySQL
+- Frontend: JavaScript, jQuery, HTML, LESS/CSS
+- Quality and testing: code review, unit and integration testing, static analysis (PHPStan, PHP Mess Detector, PHP_CodeSniffer), Magento Coding Standard, Adobe Extension Quality Program
+- Delivery and collaboration: Jira, Git, GitLab, GitHub, CI/CD, release management and versioning (Magento Semantic Version Checker)
+- AI-assisted development: OpenCode, Claude Code integrated into development workflow to reduce delivery time without compromising quality
+- Documentation: Markdown, AsciiDoc, Docusaurus, Antora
+
+## Languages
+
+- English: strong reading and written communication
+- German: professional working proficiency, telc B2 certified
+- Russian: native
+
+## Optional
+
+- [Adobe Commerce Marketplace VCT profile](https://commercemarketplace.adobe.com/partner/VCT)
+- [VCT vendor documentation site](https://vct-vendor.github.io)
