@@ -20,176 +20,174 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap">
 
   <style>
-      ::selection {
-          background-color: #ffc107;
-      }
+    ::selection {
+      background-color: #ffc107;
+    }
 
-      ::-webkit-scrollbar {
-          height: .8rem;
-          width: .8rem;
-      }
+    ::-webkit-scrollbar {
+      height: .8rem;
+      width: .8rem;
+    }
 
-      ::-webkit-scrollbar-thumb {
-          background-color: #c4c8cb;
-      }
+    ::-webkit-scrollbar-thumb {
+      background-color: #c4c8cb;
+    }
 
+    body {
+      font: 11pt/1.4 Inter, Helvetica, sans-serif;
+      width: 210mm;
+    }
+
+    nav {
+      margin-bottom: 1rem;
+    }
+
+    nav div {
+      display: flex;
+    }
+
+    nav input {
+      margin: 0 .3rem 0 0;
+    }
+
+    nav label {
+      margin: 0 2rem 0 0;
+    }
+
+    h1 {
+      font-size: 30pt;
+      font-weight: 400;
+      margin: 0;
+    }
+
+    h2 {
+      font-size: 20pt;
+      font-weight: 500;
+      margin: 2.8rem 0 .4rem;
+    }
+
+    h3 {
+      font-size: 14pt;
+      font-weight: 500;
+      margin: 2.8rem 0 0;
+    }
+
+    header h2 {
+      font-size: 16pt;
+      margin: 0;
+    }
+
+    section > article:first-of-type h3 {
+      margin-top: 0;
+    }
+
+    a {
+      color: #06c;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+      padding: 0 0 0 1rem;
+    }
+
+    ul li {
+      margin: .4rem 0 0 0;
+      overflow-wrap: anywhere;
+    }
+
+    ul.ulh {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+    }
+
+    ul.ulh > li:not(:last-child)::after {
+      content: '·';
+      font-size: 11pt;
+      font-weight: 600;
+      margin: 0 .8rem;
+    }
+
+    .second {
+      color: #6e6e73;
+    }
+
+    ul.ulh + div {
+      margin: .4rem 0 0 0;
+    }
+
+    @media screen {
       body {
-          font: 11pt/1.4 Inter, Helvetica, sans-serif;
-          width: 210mm;
+        margin: 2rem auto 4rem;
       }
+    }
 
-      nav {
-          margin-bottom: 1rem;
-      }
-
-      nav div {
-          display: flex;
-      }
-
-      nav input {
-          margin: 0 .3rem 0 0;
-      }
-
-      nav label {
-          margin: 0 2rem 0 0;
-      }
-
-      h1 {
-          font-size: 30pt;
-          font-weight: 400;
-          margin: 0;
-      }
-
-      h2 {
-          font-size: 20pt;
-          font-weight: 500;
-          margin: 2.8rem 0 .4rem;
-      }
-
-      h3 {
-          font-size: 14pt;
-          font-weight: 500;
-          margin: 2.8rem 0 0;
-      }
-
-      header h2 {
-          font-size: 16pt;
-          margin: 0;
-      }
-
-      section > article:first-of-type h3 {
-          margin-top: 0;
-      }
-
-      a {
-          color: #06c;
-      }
-
-      address {
-          display: inline;
-          font-style: normal;
-      }
-
-      ul {
-          display: flex;
-          flex-direction: column;
-          margin: 0;
-          padding: 0 0 0 1rem;
-      }
-
-      ul li {
-          margin: .4rem 0 0 0;
-          overflow-wrap: anywhere;
+    @media screen and (max-width: 768px) {
+      body {
+        margin: 1.8rem 0 2.4rem .8rem;
+        width: auto;
       }
 
       ul.ulh {
-          display: flex;
-          flex-direction: row;
-          flex-wrap: wrap;
-          list-style: none;
-          padding: 0;
+        flex-direction: column;
       }
 
       ul.ulh > li:not(:last-child)::after {
-          content: '·';
-          font-size: 11pt;
-          font-weight: 600;
-          margin: 0 .8rem;
+        content: '';
+      }
+    }
+
+    @media print {
+      nav {
+        display: none;
       }
 
-      .second {
-          color: #6e6e73;
+      article {
+        break-inside: avoid;
       }
 
-      ul.ulh + div {
-          margin: .4rem 0 0 0;
+      h1 {
+        margin-top: -1rem;
       }
+    }
 
-      @media screen {
-          body {
-              margin: 2rem auto 4rem;
-          }
-      }
-
-      @media screen and (max-width: 768px) {
-          body {
-              margin: 1.2rem 0 2.4rem .8rem;
-              width: auto;
-          }
-
-          ul.ulh {
-              flex-direction: column;
-          }
-
-          ul.ulh > li:not(:last-child)::after {
-              content: '';
-          }
-      }
-
-      @media print {
-          nav {
-              display: none;
-          }
-
-          article {
-              break-inside: avoid;
-          }
-      }
-
-      @page {
-          margin: 3rem 3rem 3rem 5rem;
-          size: A4;
-      }
+    @page {
+      margin: 3rem 3rem 2rem 5rem;
+      size: A4;
+    }
   </style>
 
   <style>
-      ul.ulh li,
-      ul.ulh li address {
-          font-size: 0;
-      }
+    ul.ulh li {
+      font-size: 0;
+    }
 
-      ul.ulh li span {
-          font-size: 11pt;
-      }
+    ul.ulh li span {
+      font-size: 11pt;
+    }
 
-      [data-lng] {
-          display: none;
-      }
+    [data-lng] {
+      display: none;
+    }
 
-      body:has(#lng-en:checked) [data-lng='en'],
-      body:has(#lng-de:checked) [data-lng='de'],
-      body:has(#lng-ru:checked) [data-lng='ru'] {
-          display: inline;
-      }
+    body:has(#lng-en:checked) [data-lng='en'],
+    body:has(#lng-de:checked) [data-lng='de'],
+    body:has(#lng-ru:checked) [data-lng='ru'] {
+      display: inline;
+    }
 
-      @supports not selector(:has(a)) {
-          [data-lng='en'] {
-              display: inline !important;
-          }
+    @supports not selector(:has(*)) {
+      [data-lng='en'] {
+        display: inline !important;
       }
+    }
   </style>
 
   <!-- schema.org/Person -->
@@ -201,15 +199,15 @@
       "url": "https://vsvizev.github.io",
       "name": "Victor Svizev",
       "alternateName": "Виктор Свизев",
-      "jobTitle": "Senior Magento / Adobe Commerce Developer",
-      "description": "Senior Magento / Adobe Commerce Developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä, and Adobe App Builder.",
+      "jobTitle": "Senior Magento / Adobe Commerce developer",
+      "description": "Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä, and Adobe App Builder.",
       "worksFor": {
         "@type": "Organization",
         "name": "TechDivision GmbH",
         "url": "https://techdivision.com"
       },
       "alumniOf": {
-        "@type": "CollegeOrUniversity",
+        "@type": "EducationalOrganization",
         "name": "Southern Federal University, Russia"
       },
       "address": {
@@ -228,9 +226,9 @@
         "PHP",
         "Magento 2",
         "Adobe Commerce",
+        "Extension Development",
         "Hyvä Themes",
         "Adobe App Builder",
-        "Extension Development",
         "AI-assisted development"
       ],
       "hasCredential": {
@@ -252,21 +250,22 @@
   </script>
   <!-- /schema.org/Person -->
 
-  <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta property="og:locale" content="en_US">
+  <link rel="canonical" href="https://vsvizev.github.io">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='90' font-size='90'>📄</text></svg>">
 
+  <meta name="robots" content="index,follow,max-image-preview:large">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <meta name="author" content="Victor Svizev">
   <meta name="description" content="Senior Magento / Adobe Commerce Developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä, and Adobe App Builder.">
 
-  <link rel="canonical" href="https://vsvizev.github.io">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='90' font-size='90'>📄</text></svg>">
-
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Victor Svizev – Senior Magento / Adobe Commerce Developer">
   <meta property="og:description" content="Senior Magento / Adobe Commerce Developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä, and Adobe App Builder.">
   <meta property="og:url" content="https://vsvizev.github.io">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="de_DE">
+  <meta property="og:locale:alternate" content="ru_RU">
 
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Victor Svizev – Senior Magento / Adobe Commerce Developer">
@@ -276,19 +275,19 @@
 </head>
 
 <body>
-<!-- gtm noscript -->
+<!-- gtm -->
 <noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7CV5BZ" height="0" width="0"></iframe>
+  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K7CV5BZ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
-<!-- /gtm noscript -->
+<!-- /gtm -->
 
 <nav aria-label="Language selector">
   <div role="radiogroup" aria-label="Language selector">
-    <input id="lng-en" aria-label="English" name="lng" type="radio" autocomplete="off" checked>
+    <input id="lng-en" aria-label="English" name="lng" type="radio" checked>
     <label for="lng-en" lang="en">EN</label>
-    <input id="lng-de" aria-label="Deutsch" name="lng" type="radio" autocomplete="off">
+    <input id="lng-de" aria-label="Deutsch" name="lng" type="radio">
     <label for="lng-de" lang="de">DE</label>
-    <input id="lng-ru" aria-label="Русский" name="lng" type="radio" autocomplete="off">
+    <input id="lng-ru" aria-label="Русский" name="lng" type="radio">
     <label for="lng-ru" lang="ru">RU</label>
   </div>
 </nav>
@@ -337,11 +336,9 @@
     </ul>
     <ul class="ulh">
       <li>
-        <address>
-          <span data-lng="en">Dresden, Germany</span>
-          <span data-lng="de">Dresden, Deutschland</span>
-          <span data-lng="ru">Дрезден, Германия</span>
-        </address>
+        <span data-lng="en">Dresden, Germany</span>
+        <span data-lng="de">Dresden, Deutschland</span>
+        <span data-lng="ru">Дрезден, Германия</span>
       </li>
       <li>
         <span data-lng="en">Prefer remote roles</span>
@@ -382,16 +379,6 @@
           <span data-lng="de">September 2021 – heute</span>
           <span data-lng="ru">Сентябрь 2021 – по настоящее время</span>
         </li>
-        <li>
-          <span data-lng="en">100+ sales across 4 extensions</span>
-          <span data-lng="de">100+ Verkäufe über 4 Extensions</span>
-          <span data-lng="ru">100+ продаж 4 расширений</span>
-        </li>
-        <li>
-          <span data-lng="en">1500+ free downloads</span>
-          <span data-lng="de">1500+ kostenlose Downloads</span>
-          <span data-lng="ru">1500+ бесплатных скачиваний</span>
-        </li>
       </ul>
       <ul class="ulh">
         <li>
@@ -402,11 +389,28 @@
           </a>
         </li>
         <li>
-          <a href="https://vct-vendor.github.io" rel="noopener noreferrer">
-            <span data-lng="en">Extension documentation</span>
-            <span data-lng="de">Extension Dokumentation</span>
-            <span data-lng="ru">Документация расширений</span>
+          <a href="https://vct-vendor.github.io" target="_blank" rel="noopener noreferrer">
+            <span data-lng="en">Extension end-user documentation</span>
+            <span data-lng="de">Extension Endbenutzerdokumentation</span>
+            <span data-lng="ru">Пользовательская документация расширений</span>
           </a>
+        </li>
+      </ul>
+      <ul class="ulh">
+        <li>
+          <span data-lng="en">100+ sales across 4 extensions</span>
+          <span data-lng="de">100+ Verkäufe über 4 Extensions</span>
+          <span data-lng="ru">100+ продаж 4 расширений</span>
+        </li>
+        <li>
+          <span data-lng="en">1500+ free downloads</span>
+          <span data-lng="de">1500+ kostenlose Downloads</span>
+          <span data-lng="ru">1500+ бесплатных скачиваний</span>
+        </li>
+        <li>
+          <span data-lng="en">5.0/5 rating from 4 user reviews</span>
+          <span data-lng="de">5.0/5 Bewertung aus 4 Nutzerbewertungen</span>
+          <span data-lng="ru">Рейтинг 5.0/5 по 4 отзывам пользователей</span>
         </li>
       </ul>
       <div>
@@ -618,6 +622,11 @@
           <span data-lng="en">September 2007 – September 2014</span>
           <span data-lng="de">September 2007 – September 2014</span>
           <span data-lng="ru">Сентябрь 2007 – Сентябрь 2014</span>
+        </li>
+        <li>
+          <span data-lng="en">Including academic leave</span>
+          <span data-lng="de">Inklusive Urlaubssemester</span>
+          <span data-lng="ru">Включая академический отпуск</span>
         </li>
       </ul>
     </article>
