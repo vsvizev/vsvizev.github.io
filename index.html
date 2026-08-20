@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="robots" content="index,follow,max-image-preview:large">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="index,follow,max-image-preview:large" name="robots">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 
-  <meta name="author" content="Victor Svizev">
-  <meta name="description" content="Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder.">
+  <meta content="Victor Svizev" name="author">
+  <meta content="Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder." name="description">
 
-  <meta property="og:type" content="profile">
-  <meta property="og:title" content="Victor Svizev – Senior Magento / Adobe Commerce developer">
-  <meta property="og:description" content="Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder.">
-  <meta property="og:url" content="https://vsvizev.github.io">
-  <meta property="og:locale" content="en_US">
-  <meta property="og:locale:alternate" content="de_DE">
-  <meta property="og:locale:alternate" content="ru_RU">
+  <meta content="profile" property="og:type">
+  <meta content="Victor Svizev – Senior Magento / Adobe Commerce developer" property="og:title">
+  <meta content="Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder." property="og:description">
+  <meta content="https://vsvizev.github.io" property="og:url">
+  <meta content="en_US" property="og:locale">
+  <meta content="de_DE" property="og:locale:alternate">
+  <meta content="ru_RU" property="og:locale:alternate">
 
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Victor Svizev – Senior Magento / Adobe Commerce developer">
-  <meta name="twitter:description" content="Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder.">
+  <meta content="summary" name="twitter:card">
+  <meta content="Victor Svizev – Senior Magento / Adobe Commerce developer" name="twitter:title">
+  <meta content="Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder." name="twitter:description">
 
   <title>Victor Svizev – Senior Magento / Adobe Commerce Developer</title>
 
@@ -115,6 +115,7 @@
 
     nav div {
       display: inline-flex;
+      flex-wrap: wrap;
     }
 
     nav input {
@@ -202,12 +203,12 @@
         margin: 2rem auto 5rem;
       }
 
-      #cv {
+      #cv, #linkedin:after {
         display: none;
       }
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 220mm) {
       body {
         margin: 1.2rem .5rem 5rem;
         width: auto;
@@ -275,12 +276,18 @@
 <body>
 <nav aria-label="Language selector">
   <div aria-label="Language selector" role="radiogroup">
-    <input id="lng-de" name="lng" aria-label="Deutsch" type="radio">
-    <label for="lng-de" lang="de">DEU</label>
-    <input id="lng-en" name="lng" aria-label="English" type="radio" checked>
-    <label for="lng-en" lang="en">ENG</label>
-    <input id="lng-ru" name="lng" aria-label="Русский" type="radio">
-    <label for="lng-ru" lang="ru">RUS</label>
+    <span>
+      <input aria-label="Deutsch" id="lng-de" name="lng" type="radio">
+      <label for="lng-de" lang="de">DEU</label>
+    </span>
+    <span>
+      <input aria-label="English" checked id="lng-en" name="lng" type="radio">
+      <label for="lng-en" lang="en">ENG</label>
+    </span>
+    <span>
+      <input aria-label="Русский" id="lng-ru" name="lng" type="radio">
+      <label for="lng-ru" lang="ru">RUS</label>
+    </span>
   </div>
 </nav>
 
@@ -304,6 +311,12 @@
           <span>victor.svizev@gmail.com</span>
         </a>
       </li>
+      <li id="linkedin">
+        <span>LinkedIn: </span>
+        <a href="https://linkedin.com/in/victor-svizev" rel="noopener noreferrer" target="_blank">
+          <span>linkedin.com/in/victor-svizev</span>
+        </a>
+      </li>
       <li id="cv">
         <span>
           <span data-lng="en">CV: </span>
@@ -312,12 +325,6 @@
         </span>
         <a href="https://vsvizev.github.io" rel="noopener noreferrer" target="_blank">
           <span>vsvizev.github.io</span>
-        </a>
-      </li>
-      <li>
-        <span>LinkedIn: </span>
-        <a href="https://linkedin.com/in/victor-svizev" rel="noopener noreferrer" target="_blank">
-          <span>linkedin.com/in/victor-svizev</span>
         </a>
       </li>
     </ul>
