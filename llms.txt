@@ -40,11 +40,10 @@ Certified Senior Magento / Adobe Commerce Developer with 9+ years of experience.
 - **VCT Extensions:** Independent vendor on Adobe Commerce Marketplace. 100+ sales, 1400+ free downloads, 5.0/5 rating.
 
 ## Education & Certifications
-- **Certification:** Adobe Commerce Developer Expert (ADO-E725).
 - **Education:** Magister, Control in technical systems, Southern Federal University.
+- **Certification:** Adobe Commerce Developer Expert (ADO-E725).
 
 ## Contact
 - **Email:** victor.svizev@gmail.com
 - **LinkedIn:** linkedin.com/in/victor-svizev
-- **CV/Portfolio:** vsvizev.github.io
 - **Location:** Dresden, Germany (Prefer remote roles)
