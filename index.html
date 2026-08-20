@@ -95,6 +95,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
 
   <style>
+    @page {
+      margin: 3rem 3rem 2rem 5rem;
+      size: A4;
+    }
+
     ::selection {
       background-color: #ffc107;
     }
@@ -109,21 +114,14 @@
       width: 210mm;
     }
 
-    nav {
-      margin-bottom: 1rem;
-    }
-
-    nav div {
+    nav div span {
       display: inline-flex;
       flex-wrap: wrap;
+      margin: 0 1.6rem 1rem 0;
     }
 
     nav input {
       margin: 0 .3rem 0 0;
-    }
-
-    nav label {
-      margin: 0 2rem 0 0;
     }
 
     h1 {
@@ -140,13 +138,17 @@
 
     h3 {
       font-size: 14pt;
-      font-weight: 500;
+      font-weight: 400;
       margin: 2.8rem 0 0;
+    }
+
+    h2 + ul {
+      margin-top: -.5rem;
     }
 
     header h2 {
       font-size: 14pt;
-      font-weight: 500;
+      font-weight: 400;
       margin: .5rem 0;
     }
 
@@ -157,6 +159,10 @@
     a {
       color: #06c;
       text-decoration: none;
+    }
+
+    .muted {
+      color: #6e6e73;
     }
 
     ul {
@@ -186,16 +192,32 @@
       margin: 0 .8rem;
     }
 
-    .muted {
-      color: #6e6e73;
-    }
-
     ul.ulh + div {
       margin-top: .5rem;
     }
 
-    h2 + ul {
-      margin-top: -.5rem;
+    ul.ulh li {
+      font-size: 0;
+    }
+
+    ul.ulh li span {
+      font-size: 11pt;
+    }
+
+    [data-lng] {
+      display: none;
+    }
+
+    body:has(#lng-en:checked) [data-lng='en'],
+    body:has(#lng-de:checked) [data-lng='de'],
+    body:has(#lng-ru:checked) [data-lng='ru'] {
+      display: inline;
+    }
+
+    @supports not selector(:has(*)) {
+      [data-lng='en'] {
+        display: inline !important;
+      }
     }
 
     @media screen {
@@ -239,35 +261,6 @@
 
       h1 {
         margin-top: -1rem;
-      }
-    }
-
-    @page {
-      margin: 3rem 3rem 2rem 5rem;
-      size: A4;
-    }
-
-    ul.ulh li {
-      font-size: 0;
-    }
-
-    ul.ulh li span {
-      font-size: 11pt;
-    }
-
-    [data-lng] {
-      display: none;
-    }
-
-    body:has(#lng-en:checked) [data-lng='en'],
-    body:has(#lng-de:checked) [data-lng='de'],
-    body:has(#lng-ru:checked) [data-lng='ru'] {
-      display: inline;
-    }
-
-    @supports not selector(:has(*)) {
-      [data-lng='en'] {
-        display: inline !important;
       }
     }
   </style>
