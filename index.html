@@ -38,6 +38,7 @@
 
     body {
       font: 11pt/1.4 Inter, Helvetica, sans-serif;
+      padding: 0;
       width: 210mm;
     }
 
@@ -131,9 +132,13 @@
 
     @media screen and (max-width: 768px) {
       body {
-        margin: 0;
-        padding: 1rem 0 2.4rem .5rem;
+        margin: 1.4rem .5rem 2.4rem .5rem;
         width: auto;
+        zoom: 120%;
+      }
+
+      ul {
+        padding: 0 0 0 .8rem;
       }
 
       ul.ulh {
