@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="index,follow,max-image-preview:large" name="robots">
-  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
 
   <meta content="Victor Svizev" name="author">
   <meta content="Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder." name="description">
@@ -20,7 +20,7 @@
   <meta content="Victor Svizev – Senior Magento / Adobe Commerce developer" name="twitter:title">
   <meta content="Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder." name="twitter:description">
 
-  <title>Victor Svizev – Senior Magento / Adobe Commerce Developer</title>
+  <title>Victor Svizev – Senior Magento / Adobe Commerce developer</title>
 
   <link href="https://vsvizev.github.io" rel="canonical">
   <link href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='90' font-size='90'>📄</text></svg>" rel="icon">
@@ -54,7 +54,7 @@
       "sameAs": [
         "https://linkedin.com/in/victor-svizev",
         "https://xing.com/profile/victor_svizev",
-        "https://commercemarketplace.adobe.com/partner/VCT",
+        "https://commercemarketplace.adobe.com/partner/vct",
         "https://vct-vendor.github.io",
         "https://stackoverflow.com/users/7676971/victor-s",
         "https://github.com/vsvizev",
@@ -114,7 +114,7 @@
       width: 210mm;
     }
 
-    nav div span {
+    nav span {
       display: inline-flex;
       flex-wrap: wrap;
       margin: 0 1.6rem 1rem 0;
@@ -127,13 +127,13 @@
     h1 {
       font-size: 28pt;
       font-weight: 300;
-      margin: 0;
+      margin: 0 0 .5rem;
     }
 
     h2 {
       font-size: 20pt;
       font-weight: 400;
-      margin: 2.8rem 0 .5rem;
+      margin: 2.8rem 0 0;
     }
 
     h3 {
@@ -142,14 +142,10 @@
       margin: 2.8rem 0 0;
     }
 
-    h2 + ul {
-      margin-top: -.5rem;
-    }
-
     header h2 {
       font-size: 14pt;
       font-weight: 400;
-      margin: .5rem 0;
+      margin: 0;
     }
 
     section > article:first-of-type h3 {
@@ -225,7 +221,8 @@
         margin: 2rem auto 5rem;
       }
 
-      #cv, #linkedin:after {
+      #cv,
+      #linkedin::after {
         display: none;
       }
     }
@@ -268,20 +265,18 @@
 
 <body>
 <nav aria-label="Language selector">
-  <div aria-label="Language selector" role="radiogroup">
-    <span>
-      <input aria-label="Deutsch" id="lng-de" name="lng" type="radio">
-      <label for="lng-de" lang="de">DEU</label>
-    </span>
-    <span>
-      <input aria-label="English" checked id="lng-en" name="lng" type="radio">
-      <label for="lng-en" lang="en">ENG</label>
-    </span>
-    <span>
-      <input aria-label="Русский" id="lng-ru" name="lng" type="radio">
-      <label for="lng-ru" lang="ru">RUS</label>
-    </span>
-  </div>
+  <span>
+    <input aria-label="Deutsch" id="lng-de" name="lng" type="radio">
+    <label for="lng-de" lang="de">DEU</label>
+  </span>
+  <span>
+    <input aria-label="English" checked id="lng-en" name="lng" type="radio">
+    <label for="lng-en" lang="en">ENG</label>
+  </span>
+  <span>
+    <input aria-label="Русский" id="lng-ru" name="lng" type="radio">
+    <label for="lng-ru" lang="ru">RUS</label>
+  </span>
 </nav>
 
 <main>
@@ -296,7 +291,6 @@
       <span data-lng="de">Senior Magento / Adobe Commerce Entwickler</span>
       <span data-lng="ru">Senior Magento / Adobe Commerce разработчик</span>
     </h2>
-
     <ul class="ulh">
       <li>
         <span>Email: </span>
@@ -341,12 +335,13 @@
       <span data-lng="de">Zusammenfassung</span>
       <span data-lng="ru">Краткое резюме</span>
     </h2>
-
-    <div>
-      <span data-lng="en">Certified Senior Magento / Adobe Commerce Developer with 9+ years of experience working in distributed teams on commercial extension development, platform upgrades, and compatibility engineering. Independently designs, builds, and sells Magento extensions on the Adobe Commerce Marketplace, with 100+ sales. Experienced in integrating Magento with modern solutions, including Hyvä Theme and Adobe App Builder.</span>
-      <span data-lng="de">Zertifizierter Senior Magento / Adobe Commerce Developer mit 9+ Jahren Erfahrung in verteilten Teams in der Entwicklung kommerzieller Extensions, bei Plattform Upgrades und im Bereich der Kompatibilität. Konzipiert, entwickelt und verkauft eigenständig Magento Extensions auf dem Adobe Commerce Marketplace, mit 100+ Verkäufen. Erfahren in der Integration von Magento mit modernen Lösungen, darunter Hyvä Theme und Adobe App Builder.</span>
-      <span data-lng="ru">Сертифицированный Senior Magento / Adobe Commerce Developer с 9+ годами опыта работы в распределенных командах, включая разработку коммерческих расширений, обновление платформы и обеспечение совместимости. Самостоятельно проектирую, разрабатываю и продаю расширения для Magento на Adobe Commerce Marketplace со 100+ продажами. Имею опыт интеграции Magento с современными решениями, включая Hyvä Theme и Adobe App Builder.</span>
-    </div>
+    <ul class="ulh">
+      <li>
+        <span data-lng="en">Certified Senior Magento / Adobe Commerce developer with 9+ years of experience working in distributed teams on commercial extension development, platform upgrades, and compatibility engineering. Independently designs, builds, and sells Magento extensions on the Adobe Commerce Marketplace, with 100+ sales. Experienced in integrating Magento with modern solutions, including Hyvä Theme and Adobe App Builder.</span>
+        <span data-lng="de">Zertifizierter Senior Magento / Adobe Commerce developer mit 9+ Jahren Erfahrung in verteilten Teams in der Entwicklung kommerzieller Extensions, bei Plattform Upgrades und im Bereich der Kompatibilität. Konzipiert, entwickelt und verkauft eigenständig Magento Extensions auf dem Adobe Commerce Marketplace, mit 100+ Verkäufen. Erfahren in der Integration von Magento mit modernen Lösungen, darunter Hyvä Theme und Adobe App Builder.</span>
+        <span data-lng="ru">Сертифицированный Senior Magento / Adobe Commerce developer с 9+ годами опыта работы в распределенных командах, включая разработку коммерческих расширений, обновление платформы и обеспечение совместимости. Самостоятельно проектирую, разрабатываю и продаю расширения для Magento на Adobe Commerce Marketplace со 100+ продажами. Имею опыт интеграции Magento с современными решениями, включая Hyvä Theme и Adobe App Builder.</span>
+      </li>
+    </ul>
   </section>
 
   <section aria-labelledby="projects">
@@ -355,7 +350,6 @@
       <span data-lng="de">Projekte</span>
       <span data-lng="ru">Проекты</span>
     </h2>
-
     <article>
       <h3>
         <span data-lng="en">VCT – independent Magento extension vendor</span>
@@ -383,12 +377,12 @@
         <li>
           <span data-lng="en">5.0 / 5 rating based on 4 reviews</span>
           <span data-lng="de">5.0 / 5 Bewertung aus 4 Rezensionen</span>
-          <span data-lng="ru">5.0 / 5 рейтинг на основе 4 отзывов</span>
+          <span data-lng="ru">5.0 / 5 рейтинг на основе 4-х отзывов</span>
         </li>
       </ul>
       <ul class="ulh">
         <li>
-          <a href="https://commercemarketplace.adobe.com/partner/VCT" rel="noopener noreferrer" target="_blank">
+          <a href="https://commercemarketplace.adobe.com/partner/vct" rel="noopener noreferrer" target="_blank">
             <span data-lng="en">Adobe Commerce Marketplace profile</span>
             <span data-lng="de">Adobe Commerce Marketplace Profil</span>
             <span data-lng="ru">Adobe Commerce Marketplace профиль</span>
@@ -416,7 +410,6 @@
       <span data-lng="de">Berufserfahrung</span>
       <span data-lng="ru">Опыт работы</span>
     </h2>
-
     <article>
       <h3>
         <span data-lng="en">Senior Magento / Adobe Commerce developer</span>
@@ -442,9 +435,9 @@
       </ul>
       <ul>
         <li>
-          <span data-lng="en">Evolve and maintain a large ecosystem of Magento extensions, including Symfony-based components.</span>
-          <span data-lng="de">Erweitere und betreue ein umfangreiches Ökosystem von Magento-Extensions, einschließlich Symfony-basierter Komponenten.</span>
-          <span data-lng="ru">Развиваю и сопровождаю обширную экосистему Magento-расширений, включая компоненты на базе Symfony.</span>
+          <span data-lng="en">Evolve and maintain a large ecosystem of 140+ Magento extensions, including Symfony-based components.</span>
+          <span data-lng="de">Erweitere und betreue ein umfangreiches Ökosystem aus 140+ Magento-Extensions, einschließlich Symfony-basierter Komponenten.</span>
+          <span data-lng="ru">Развиваю и сопровождаю обширную экосистему из 140+ Magento-расширений, включая компоненты на базе Symfony.</span>
         </li>
         <li>
           <span data-lng="en">Draft technical concepts and development tickets, and maintain technical and end-user documentation.</span>
@@ -457,9 +450,9 @@
           <span data-lng="ru">Разрабатываю новые модули и функциональность, выполняю рефакторинг кода, исправляю ошибки и улучшаю безопасность и производительность.</span>
         </li>
         <li>
-          <span data-lng="en">Ensure extension compatibility with new Magento releases, starting with beta versions, and supported PHP versions.</span>
-          <span data-lng="de">Stelle die Kompatibilität der Extensions mit neuen Magento-Versionen – bereits ab Beta-Releases – sowie mit unterstützten PHP-Versionen sicher.</span>
-          <span data-lng="ru">Обеспечиваю совместимость расширений с новыми версиями Magento, начиная с beta-релизов, а также с поддерживаемыми версиями PHP.</span>
+          <span data-lng="en">Ensure extension compatibility with new Magento releases (starting with beta versions), as well as with supported PHP versions.</span>
+          <span data-lng="de">Stelle die Kompatibilität der Extensions mit neuen Magento-Versionen (bereits ab Beta-Releases), sowie mit unterstützten PHP-Versionen sicher.</span>
+          <span data-lng="ru">Обеспечиваю совместимость расширений с новыми версиями Magento (начиная с beta-релизов), а также с поддерживаемыми версиями PHP.</span>
         </li>
         <li>
           <span data-lng="en">Expand automated test coverage for new features and modules, including regression tests for bug fixes and edge cases.</span>
@@ -477,7 +470,7 @@
           <span data-lng="ru">Поддерживаю зависимости пакетов, релизные пайплайны и версионирование.</span>
         </li>
         <li>
-          <span data-lng="en">Support multiple internal development teams, contributing hands-on expertise across client Magento projects and extension customer environments.</span>
+          <span data-lng="en">Support multiple internal development teams by providing hands-on expertise across client Magento projects and extension customer environments.</span>
           <span data-lng="de">Unterstütze mehrere interne Entwicklungsteams und bringe praxisnahe Expertise in Magento-Kundenprojekte sowie in Umgebungen von Extension-Kunden ein.</span>
           <span data-lng="ru">Поддерживаю несколько внутренних команд разработки, применяя практический опыт в клиентских Magento-проектах и в окружениях клиентов расширений.</span>
         </li>
@@ -512,9 +505,9 @@
       </h3>
       <ul class="ulh muted">
         <li>
-          <span data-lng="en">netz98 GmbH, a valantic company, Germany</span>
-          <span data-lng="de">netz98 GmbH, ein Unternehmen der valantic, Deutschland</span>
-          <span data-lng="ru">netz98 GmbH, компания группы valantic, Германия</span>
+          <span data-lng="en">netz98 GmbH – a valantic company, Germany</span>
+          <span data-lng="de">netz98 GmbH – a valantic company, Deutschland</span>
+          <span data-lng="ru">netz98 GmbH – a valantic company, Германия</span>
         </li>
         <li>
           <span data-lng="en">August 2022 – January 2023</span>
@@ -529,8 +522,8 @@
       </ul>
       <ul>
         <li>
-          <span data-lng="en">Contributed to the development of 3 client projects, including B2B and B2C solutions, across 2 internal teams.</span>
-          <span data-lng="de">Wirkte an der Entwicklung von 3 Kundenprojekten mit, einschließlich B2B und B2C Lösungen, in 2 internen Teams.</span>
+          <span data-lng="en">Contributed to 3 client projects, including B2B and B2C solutions, across 2 internal teams.</span>
+          <span data-lng="de">Wirkte an der Entwicklung von 3 Kundenprojekten mit, einschließlich B2B- und B2C-Lösungen, in 2 internen Teams.</span>
           <span data-lng="ru">Участвовал в разработке 3-х клиентских проектов, включая B2B и B2C решения в 2-х внутренних командах.</span>
         </li>
         <li>
@@ -571,12 +564,12 @@
       </ul>
       <ul>
         <li>
-          <span data-lng="en">Owned end-to-end development – frontend, backend customizations, and test environments – for 4 in-house Magento B2B and B2C stores on a two-person development team.</span>
-          <span data-lng="de">Verantwortete die gesamte Entwicklung – Frontend, Backend-Anpassungen und Testumgebungen – für 4 interne Magento B2B und B2C Shops in einem zweiköpfigen Entwicklungsteam.</span>
+          <span data-lng="en">Owned end-to-end development – frontend, backend customizations, and test environments – for 4 in-house Magento B2B and B2C stores as part of a two-person development team.</span>
+          <span data-lng="de">Verantwortete die gesamte Entwicklung – Frontend, Backend-Anpassungen und Testumgebungen – für 4 interne Magento B2B- und B2C-Shops in einem zweiköpfigen Entwicklungsteam.</span>
           <span data-lng="ru">Полностью отвечал за frontend и backend разработку, а также тестовые окружения 4-х внутренних Magento B2B и B2C магазинов компании в команде из двух разработчиков.</span>
         </li>
         <li>
-          <span data-lng="en">Performed migrations from Magento 1.7 to 1.9 and from 1.9 to 2.3, including extension and theme replacements and/or rewrites, as well as implementing custom catalog import.</span>
+          <span data-lng="en">Performed migrations from Magento 1.7 to 1.9 and from 1.9 to 2.3, including extension and theme replacements and/or rewrites, and implemented a custom catalog import.</span>
           <span data-lng="de">Führte die Magento-Migrationen von 1.7 auf 1.9 und von 1.9 auf 2.3 durch, einschließlich Austausch und/oder Überarbeitung von Extensions und Themes, sowie Implementierung des Custom-Katalogimports.</span>
           <span data-lng="ru">Выполнял миграцию Magento с версии 1.7 на 1.9 и с 1.9 на 2.3, включая замену и/или переписывание расширений и тем, а также внедрял кастомный импорт каталога.</span>
         </li>
@@ -595,7 +588,6 @@
       <span data-lng="de">Ausbildung</span>
       <span data-lng="ru">Образование</span>
     </h2>
-
     <article>
       <h3>
         <span data-lng="en">Magister, Control in technical systems</span>
@@ -623,64 +615,71 @@
       <span data-lng="de">Kenntnisse</span>
       <span data-lng="ru">Навыки</span>
     </h2>
-
     <ul>
-      <li><strong>Magento / Adobe Commerce:</strong>
+      <li>
+        <strong>Magento / Adobe Commerce:</strong>
         <span data-lng="en">extension development; platform upgrades; compatibility engineering; Magento core architecture and advanced debugging; Hyvä Theme compatibility</span>
         <span data-lng="de">Extension Entwicklung; Plattform Upgrades; Kompatibilitätsentwicklung; Magento Kernarchitektur und fortgeschrittenes Debugging; Hyvä Theme Kompatibilität</span>
         <span data-lng="ru">разработка расширений; обновление платформы; обеспечение совместимости; архитектура ядра Magento и продвинутая отладка; совместимость с Hyvä Theme</span>
       </li>
-      <li><strong>
-        <span data-lng="en">Backend & integration:</span>
-        <span data-lng="de">Backend & Integration:</span>
-        <span data-lng="ru">Backend и интеграция:</span>
-      </strong>
+      <li>
+        <strong>
+          <span data-lng="en">Backend & integration:</span>
+          <span data-lng="de">Backend & Integration:</span>
+          <span data-lng="ru">Backend и интеграция:</span>
+        </strong>
         <span data-lng="en">PHP; Symfony-based components; REST API; RabbitMQ; MariaDB/MySQL</span>
-        <span data-lng="de">PHP; Symfony-basierte Komponenten; REST-APIs; RabbitMQ; MariaDB/MySQL</span>
+        <span data-lng="de">PHP; Symfony-basierte Komponenten; REST APIs; RabbitMQ; MariaDB/MySQL</span>
         <span data-lng="ru">PHP; компоненты на базе Symfony; REST API; RabbitMQ; MariaDB/MySQL</span>
       </li>
-      <li><strong>Frontend:</strong>
+      <li>
+        <strong>Frontend:</strong>
         <span>JavaScript; jQuery; LESS/CSS; HTML</span>
       </li>
-      <li><strong>
-        <span data-lng="en">Development environment:</span>
-        <span data-lng="de">Entwicklungsumgebung:</span>
-        <span data-lng="ru">Среда разработки:</span>
-      </strong>
+      <li>
+        <strong>
+          <span data-lng="en">Development environment:</span>
+          <span data-lng="de">Entwicklungsumgebung:</span>
+          <span data-lng="ru">Среда разработки:</span>
+        </strong>
         <span>Composer; Docker; OpenSearch/Elasticsearch; Valkey/Redis</span>
       </li>
-      <li><strong>
-        <span data-lng="en">Code quality & testing:</span>
-        <span data-lng="de">Codequalität & Tests:</span>
-        <span data-lng="ru">Качество кода и тестирование:</span>
-      </strong>
+      <li>
+        <strong>
+          <span data-lng="en">Code quality & testing:</span>
+          <span data-lng="de">Codequalität & Tests:</span>
+          <span data-lng="ru">Качество кода и тестирование:</span>
+        </strong>
         <span data-lng="en">code review; unit and integration testing; static code analysis (PHPStan, PHP_CodeSniffer, PHP Mess Detector); Magento Coding Standard; Adobe Extension Quality Program</span>
         <span data-lng="de">Code-Reviews; Unit- und Integrationstests; statische Codeanalyse (PHPStan, PHP_CodeSniffer, PHP Mess Detector); Magento Coding Standard; Adobe Extension Quality Program</span>
         <span data-lng="ru">ревью кода; unit и integration тестирование; статический анализ кода (PHPStan, PHP_CodeSniffer, PHP Mess Detector); Magento Coding Standard; Adobe Extension Quality Program</span>
       </li>
-      <li><strong>
-        <span data-lng="en">Version control & release management:</span>
-        <span data-lng="de">Versionskontrolle & Release-Management:</span>
-        <span data-lng="ru">Контроль версий и релиз-менеджмент:</span>
-      </strong>
-        <span data-lng="en">Jira; Git; GitLab CI/CD; GitHub Actions; release management (Magento Semantic Version Checker)</span>
-        <span data-lng="de">Jira; Git; GitLab CI/CD; GitHub Actions; Release-Management (Magento Semantic Version Checker)</span>
-        <span data-lng="ru">Jira; Git; GitLab CI/CD; GitHub Actions; управление релизами (Magento Semantic Version Checker)</span>
+      <li>
+        <strong>
+          <span data-lng="en">Version control & release management:</span>
+          <span data-lng="de">Versionskontrolle & Release-Management:</span>
+          <span data-lng="ru">Контроль версий и релиз-менеджмент:</span>
+        </strong>
+        <span data-lng="en">Git; GitLab CI/CD; GitHub Actions; Jira; release management (Magento Semantic Version Checker)</span>
+        <span data-lng="de">Git; GitLab CI/CD; GitHub Actions; Jira; Release-Management (Magento Semantic Version Checker)</span>
+        <span data-lng="ru">Git; GitLab CI/CD; GitHub Actions; Jira; управление релизами (Magento Semantic Version Checker)</span>
       </li>
-      <li><strong>
-        <span data-lng="en">AI-assisted development:</span>
-        <span data-lng="de">KI-gestützte Entwicklung:</span>
-        <span data-lng="ru">Разработка с помощью ИИ:</span>
-      </strong>
-        <span data-lng="en">reduce development time without compromising code quality or maintainability by integrating AI agents such as OpenCode and Claude Code into the workflow</span>
-        <span data-lng="de">reduziere die Entwicklungszeit, ohne Einbußen bei Codequalität oder Wartbarkeit, indem ich KI-Agenten wie OpenCode und Claude Code in den Workflow integriere</span>
-        <span data-lng="ru">сокращаю время разработки без ущерба для качества и поддерживаемости кода, интегрируя в рабочий процесс ИИ-агентов, таких как OpenCode и Claude Code</span>
+      <li>
+        <strong>
+          <span data-lng="en">AI-assisted development:</span>
+          <span data-lng="de">KI-gestützte Entwicklung:</span>
+          <span data-lng="ru">Разработка с помощью ИИ:</span>
+        </strong>
+        <span data-lng="en">accelerate development without compromising code quality or maintainability by integrating AI agents (OpenCode and Claude Code) into the workflow</span>
+        <span data-lng="de">beschleunige die Entwicklung, ohne Kompromisse bei Codequalität oder Wartbarkeit einzugehen, indem ich KI-Agenten (OpenCode und Claude Code) in den Workflow integriere</span>
+        <span data-lng="ru">ускоряю разработку без ущерба качеству и поддерживаемости кода, интегрируя в рабочий процесс ИИ-агентов (OpenCode и Claude Code)</span>
       </li>
-      <li><strong>
-        <span data-lng="en">Documentation:</span>
-        <span data-lng="de">Dokumentation:</span>
-        <span data-lng="ru">Документация:</span>
-      </strong>
+      <li>
+        <strong>
+          <span data-lng="en">Documentation:</span>
+          <span data-lng="de">Dokumentation:</span>
+          <span data-lng="ru">Документация:</span>
+        </strong>
         <span data-lng="en">technical and end-user documentation; Markdown; AsciiDoc; Docusaurus; Antora</span>
         <span data-lng="de">technische und Endbenutzerdokumentation; Markdown; AsciiDoc; Docusaurus; Antora</span>
         <span data-lng="ru">техническая и пользовательская документация; Markdown; AsciiDoc; Docusaurus; Antora</span>
@@ -694,31 +693,33 @@
       <span data-lng="de">Sprachen</span>
       <span data-lng="ru">Языки</span>
     </h2>
-
     <ul>
-      <li><strong>
-        <span data-lng="en">German:</span>
-        <span data-lng="de">Deutsch:</span>
-        <span data-lng="ru">Немецкий:</span>
-      </strong>
+      <li>
+        <strong>
+          <span data-lng="en">English:</span>
+          <span data-lng="de">Englisch:</span>
+          <span data-lng="ru">Английский:</span>
+        </strong>
+        <span data-lng="en">strong technical reading comprehension and written communication, with limited spoken communication</span>
+        <span data-lng="de">starke Lesekompetenz bei technischen Texten und schriftliche Kommunikation, mit eingeschränkten mündlichen Sprachkenntnissen</span>
+        <span data-lng="ru">хорошо понимаю технический английский при чтении и уверенно использую его в письменной коммуникации, устная коммуникация ограничена</span>
+      </li>
+      <li>
+        <strong>
+          <span data-lng="en">German:</span>
+          <span data-lng="de">Deutsch:</span>
+          <span data-lng="ru">Немецкий:</span>
+        </strong>
         <span data-lng="en">professional working proficiency, telc B2 certified</span>
         <span data-lng="de">gute berufliche Sprachkenntnisse, telc B2 zertifiziert</span>
         <span data-lng="ru">профессиональный уровень, telc B2 сертификат</span>
       </li>
-      <li><strong>
-        <span data-lng="en">English:</span>
-        <span data-lng="de">Englisch:</span>
-        <span data-lng="ru">Английский:</span>
-      </strong>
-        <span data-lng="en">strong reading and written communication</span>
-        <span data-lng="de">sehr gute Lese- und Schreibkompetenz</span>
-        <span data-lng="ru">свободное чтение и письменная коммуникация</span>
-      </li>
-      <li><strong>
-        <span data-lng="en">Russian:</span>
-        <span data-lng="de">Russisch:</span>
-        <span data-lng="ru">Русский:</span>
-      </strong>
+      <li>
+        <strong>
+          <span data-lng="en">Russian:</span>
+          <span data-lng="de">Russisch:</span>
+          <span data-lng="ru">Русский:</span>
+        </strong>
         <span data-lng="en">native</span>
         <span data-lng="de">Muttersprache</span>
         <span data-lng="ru">родной язык</span>
