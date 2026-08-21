@@ -104,11 +104,11 @@
     }
 
     ::selection {
-      background-color: #ffc107;
+      background-color: #ccd0d5;
     }
 
     html {
-      scrollbar-color: #c4c8cb transparent;
+      scrollbar-color: #ccd0d5 transparent;
     }
 
     body {
@@ -125,10 +125,6 @@
 
     nav input {
       margin: 0 .3rem 0 0;
-    }
-
-    a[href='#main-content'] {
-      display: none;
     }
 
     h1 {
@@ -187,7 +183,6 @@
     }
 
     ul.ulh {
-      display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       list-style: none;
@@ -205,10 +200,12 @@
       margin-top: .45rem;
     }
 
+    nav,
     ul.ulh li {
       font-size: 0;
     }
 
+    nav span label,
     ul.ulh li span {
       font-size: 11pt;
     }
@@ -240,7 +237,7 @@
       }
     }
 
-    @media screen and (max-width: 220mm) {
+    @media screen and (max-width: 230mm) {
       body {
         margin: 1.2rem .5rem 5rem;
         width: auto;
