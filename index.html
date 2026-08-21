@@ -166,6 +166,11 @@
       text-decoration: none;
     }
 
+    a:hover span {
+      background-color: #06c;
+      color: #fff;
+    }
+
     .muted {
       color: #6e6e73;
     }
@@ -179,7 +184,6 @@
 
     ul li {
       margin: .45rem 0 0 0;
-      overflow-wrap: anywhere;
     }
 
     ul.ulh {
@@ -198,6 +202,10 @@
 
     ul.ulh + div {
       margin-top: .45rem;
+    }
+
+    nav input {
+      accent-color: #06c;
     }
 
     nav,
@@ -239,7 +247,7 @@
 
     @media screen and (max-width: 230mm) {
       body {
-        margin: 1.2rem .5rem 5rem;
+        margin: 1.4rem .5rem 5rem;
         width: auto;
         zoom: 122%;
       }
@@ -252,8 +260,8 @@
         flex-direction: column;
       }
 
-      ul.ulh > li:not(:last-child)::after {
-        content: '';
+      ul.ulh > li::after {
+        display: none;
       }
     }
 
