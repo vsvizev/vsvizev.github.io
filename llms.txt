@@ -1,29 +1,26 @@
 # Victor Svizev
 
-> Senior Magento / Adobe Commerce developer with 9+ years of experience in commercial extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder. Independent vendor of extensions on the Adobe Commerce Marketplace (brand VCT, 100+ sales, 5.0/5 rating).
+> Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder. Based in Dresden, Germany; remote-first.
 
-Currently employed at TechDivision GmbH (Dresden, Germany, remote); open to new remote roles.
+Certified Adobe Commerce Developer Expert (AD0-E725). Independent Magento extension vendor (VCT) on the Adobe Commerce Marketplace with 100+ sales and a 5.0 rating. Currently working at TechDivision GmbH, maintaining an ecosystem of 140+ Magento extensions. Speaks English, German, and Russian.
 
-## Main
+## CV
 
-- [Resume (page)](https://vsvizev.github.io): Full resume — summary, work experience, projects, education, skills, languages, certifications.
-- [Contact](mailto:victor.svizev@gmail.com): victor.svizev@gmail.com
+- [Full CV / resume](https://vsvizev.github.io): Complete work history, skills, education, and certifications, available in English, German, and Russian
+- [Adobe Commerce Developer Expert certificate](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7): Verification of AD0-E725 credential
 
-## Professional profiles
+## Projects
 
-- [LinkedIn](https://linkedin.com/in/victor-svizev)
-- [Xing](https://xing.com/profile/victor_svizev)
-- [Adobe Commerce Marketplace — VCT vendor](https://commercemarketplace.adobe.com/partner/vct): Commercial Magento extensions, 100+ sales, 5.0/5 rating.
-- [VCT extension documentation](https://vct-vendor.github.io): End-user documentation for VCT vendor extensions.
-- [Stack Overflow](https://stackoverflow.com/users/7676971/victor-s)
-- [GitHub](https://github.com/vsvizev)
-- [Adobe certification verification](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7): Adobe Commerce Developer Expert (AD0-E725).
+- [Adobe Commerce Marketplace profile](https://commercemarketplace.adobe.com/partner/vct): VCT vendor listing, 100+ sales, 5.0 / 5 rating across 4 extensions
+- [VCT extension documentation](https://vct-vendor.github.io): End-user documentation for commercial Magento 2 extensions published under the VCT vendor brand
 
-## Key facts
+## Profiles
 
-- Current role: Senior Magento / Adobe Commerce developer, TechDivision GmbH, since February 2023 (remote).
-- Previous roles: Backend Adobe Commerce developer at netz98 GmbH — a valantic company (Aug 2022 – Jan 2023); Full-Stack Magento developer at UNlimited world trade union GmbH (Feb 2017 – Jul 2022).
-- Certification: Adobe Commerce Developer Expert (AD0-E725).
-- Education: Magister, Control in technical systems, Southern Federal University, Russia (2007–2014).
-- Languages: Russian (native), German (telc B2), English (strong technical reading and written communication).
-- Core technologies: PHP, Magento/Adobe Commerce core, Symfony-based components, REST API, Hyvä Theme, Adobe App Builder, Docker, PHPStan, Git/GitLab CI/CD/GitHub Actions.
+- [GitHub](https://github.com/vsvizev): Code repositories and open-source activity
+- [LinkedIn](https://linkedin.com/in/victor-svizev): Professional profile and work history
+- [Xing](https://xing.com/profile/victor_svizev): Professional profile (DACH region)
+- [Stack Overflow](https://stackoverflow.com/users/7676971/victor-s): Technical Q&A activity
+
+## Optional
+
+- [TechDivision GmbH](https://techdivision.com): Current employer, Magento/Adobe Commerce agency
