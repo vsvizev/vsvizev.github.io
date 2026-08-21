@@ -1,2 +1,3 @@
+# llms.txt: https://vsvizev.github.io/llms.txt
 User-agent: *
 Allow: /
