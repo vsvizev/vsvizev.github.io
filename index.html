@@ -36,6 +36,19 @@
       "givenName": "Victor",
       "familyName": "Svizev",
       "alternateName": "Виктор Свизев",
+      "email": "mailto:victor.svizev@gmail.com",
+      "sameAs": [
+        "https://linkedin.com/in/victor-svizev",
+        "https://xing.com/profile/victor_svizev",
+        "https://stackoverflow.com/users/7676971/victor-s",
+        "https://github.com/vsvizev",
+        "https://commercemarketplace.adobe.com/partner/vct"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dresden",
+        "addressCountry": "DE"
+      },
       "jobTitle": "Senior Magento / Adobe Commerce developer",
       "description": "Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder.",
       "worksFor": {
@@ -47,19 +60,16 @@
         "@type": "EducationalOrganization",
         "name": "Southern Federal University, Russia"
       },
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Dresden",
-        "addressCountry": "DE"
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "certification",
+        "name": "AD0-E725 Adobe Commerce Developer Expert",
+        "url": "https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "Adobe"
+        }
       },
-      "email": "mailto:victor.svizev@gmail.com",
-      "sameAs": [
-        "https://linkedin.com/in/victor-svizev",
-        "https://xing.com/profile/victor_svizev",
-        "https://stackoverflow.com/users/7676971/victor-s",
-        "https://github.com/vsvizev",
-        "https://commercemarketplace.adobe.com/partner/vct"
-      ],
       "knowsAbout": [
         "Magento",
         "Adobe Commerce",
@@ -67,7 +77,6 @@
         "Magento extension development",
         "Magento platform upgrades",
         "Magento compatibility engineering",
-        "Magento core architecture",
         "Hyvä Theme",
         "Hyvä Checkout",
         "Adobe App Builder",
@@ -93,16 +102,6 @@
         "Redis",
         "Valkey"
       ],
-      "hasCredential": {
-        "@type": "EducationalOccupationalCredential",
-        "credentialCategory": "certification",
-        "name": "AD0-E725 Adobe Commerce Developer Expert",
-        "url": "https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7",
-        "recognizedBy": {
-          "@type": "Organization",
-          "name": "Adobe"
-        }
-      },
       "knowsLanguage": [
         "de",
         "en",
@@ -147,6 +146,10 @@
 
     nav input {
       margin: 0 .3rem 0 0;
+    }
+
+    nav label {
+      user-select: none;
     }
 
     h1 {
@@ -201,7 +204,7 @@
       display: flex;
       flex-direction: column;
       margin: 0;
-      padding: 0 0 0 .9rem;
+      padding: 0 0 0 .8rem;
     }
 
     ul li {
@@ -272,10 +275,6 @@
         margin: 1.4rem .5rem 5rem;
         width: auto;
         zoom: 122%;
-      }
-
-      ul {
-        padding: 0 0 0 .8rem;
       }
 
       ul.ulh {
