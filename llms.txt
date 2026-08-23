@@ -20,7 +20,3 @@ Certified Adobe Commerce Developer Expert (AD0-E725). Independent Magento extens
 - [LinkedIn](https://linkedin.com/in/victor-svizev): Professional profile and work history
 - [Xing](https://xing.com/profile/victor_svizev): Professional profile (DACH region)
 - [Stack Overflow](https://stackoverflow.com/users/7676971/victor-s): Technical Q&A activity
-
-## Optional
-
-- [TechDivision GmbH](https://techdivision.com): Current employer, Magento/Adobe Commerce agency
