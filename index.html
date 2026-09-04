@@ -297,7 +297,15 @@
   }
 </style>
 
-<script data-website-id="f634d403-8138-4999-abd5-4bde4f338726" defer src="https://cloud.umami.is/script.js"></script>
+<script>
+  if (window.location.origin === 'https://vsvizev.github.io' && window.location.pathname === '/') {
+    const script = document.createElement('script');
+    script.defer = true;
+    script.src = 'https://cloud.umami.is/script.js';
+    script.dataset.websiteId = 'f634d403-8138-4999-abd5-4bde4f338726';
+    document.head.appendChild(script);
+  }
+</script>
 </head>
 
 <body>
