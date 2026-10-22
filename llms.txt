@@ -1,12 +1,13 @@
 # Victor Svizev
 
-> Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, and Adobe App Builder. Based in Dresden, Germany; remote-first.
+> Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, Adobe App Builder, and AI-assisted development. Based in Dresden, Germany; remote-first.
 
-Certified Adobe Commerce Developer Expert (AD0-E725). Independent Magento extension vendor (VCT) on the Adobe Commerce Marketplace with 100+ sales and a 5.0 rating. Currently working at TechDivision GmbH, maintaining an ecosystem of 140+ Magento extensions. Speaks English, German, and Russian.
+Certified Adobe Commerce Developer Expert (AD0-E725). Independent Magento extension vendor (VCT) on the Adobe Commerce Marketplace with 100+ sales and a 5.0 rating. Currently working at TechDivision GmbH, maintaining an ecosystem of 140+ Magento extensions and developing internal Claude Code and OpenCode plugins used company-wide. Speaks English, German, and Russian.
 
 ## CV
 
 - [Full CV / resume](https://vsvizev.github.io): Complete work history, skills, education, and certifications, available in English, German, and Russian
+- [Resume as JSON Resume](https://vsvizev.github.io/resume.json): Machine-readable version of the CV in the JSON Resume format (English)
 - [Adobe Commerce Developer Expert certificate](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7): Verification of AD0-E725 credential
 
 ## Projects
