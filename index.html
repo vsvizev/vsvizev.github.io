@@ -28,86 +28,59 @@
 <!-- schema.org/Person -->
 <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "@id": "https://vsvizev.github.io/#person",
-    "url": "https://vsvizev.github.io",
-    "name": "Victor Svizev",
-    "givenName": "Victor",
-    "familyName": "Svizev",
-    "alternateName": "Виктор Свизев",
-    "email": "mailto:victor.svizev@gmail.com",
-    "sameAs": [
-      "https://linkedin.com/in/victor-svizev",
-      "https://xing.com/profile/victor_svizev",
-      "https://stackoverflow.com/users/7676971/victor-s",
-      "https://github.com/vsvizev",
-      "https://commercemarketplace.adobe.com/partner/vct"
-    ],
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Dresden",
-      "addressCountry": "DE"
-    },
-    "jobTitle": "Senior Magento / Adobe Commerce developer",
-    "description": "Senior Magento 2 / Adobe Commerce developer in Dresden, Germany. 9+ years in extension development, platform upgrades, compatibility engineering, and Hyvä Theme.",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "TechDivision GmbH",
-      "url": "https://techdivision.com"
-    },
-    "alumniOf": {
-      "@type": "EducationalOrganization",
-      "name": "Southern Federal University, Russia"
-    },
-    "hasCredential": {
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "certification",
-      "name": "AD0-E725 Adobe Commerce Developer Expert",
-      "url": "https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7",
-      "recognizedBy": {
-        "@type": "Organization",
-        "name": "Adobe"
-      }
-    },
-    "knowsAbout": [
-      "Magento 2",
-      "Adobe Commerce",
-      "PHP",
-      "Magento extension development",
-      "Magento platform upgrades",
-      "Magento compatibility engineering",
-      "Hyvä Theme",
-      "Hyvä Checkout",
-      "Adobe App Builder",
-      "REST API",
-      "RabbitMQ",
-      "MariaDB",
-      "MySQL",
-      "JavaScript",
-      "jQuery",
-      "LESS",
-      "CSS",
-      "HTML",
-      "Git",
-      "GitLab CI/CD",
-      "GitHub Actions",
-      "Unit testing",
-      "Integration testing",
-      "Static code analysis",
-      "AI-assisted software development",
-      "Claude Code",
-      "OpenSearch",
-      "Elasticsearch",
-      "Redis",
-      "Valkey",
-      "Docker"
-    ],
-    "knowsLanguage": [
-      "en",
-      "de",
-      "ru"
-    ]
+    "@context": "https://schema.org", "@type": "Person", "@id": "https://vsvizev.github.io/#person", "url": "https://vsvizev.github.io", "name": "Victor Svizev", "givenName": "Victor", "familyName": "Svizev", "alternateName": "Виктор Свизев", "email": "mailto:victor.svizev@gmail.com", "sameAs": [
+    "https://linkedin.com/in/victor-svizev",
+    "https://xing.com/profile/victor_svizev",
+    "https://stackoverflow.com/users/7676971/victor-s",
+    "https://github.com/vsvizev",
+    "https://commercemarketplace.adobe.com/partner/vct"
+  ], "address": {
+    "@type": "PostalAddress", "addressLocality": "Dresden", "addressCountry": "DE"
+  }, "jobTitle": "Senior Magento / Adobe Commerce developer", "description": "Senior Magento 2 / Adobe Commerce developer in Dresden, Germany. 9+ years in extension development, platform upgrades, compatibility engineering, and Hyvä Theme.", "worksFor": {
+    "@type": "Organization", "name": "TechDivision GmbH", "url": "https://techdivision.com"
+  }, "alumniOf": {
+    "@type": "EducationalOrganization", "name": "Southern Federal University, Russia"
+  }, "hasCredential": {
+    "@type": "EducationalOccupationalCredential", "credentialCategory": "certification", "name": "AD0-E725 Adobe Commerce Developer Expert", "url": "https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7", "recognizedBy": {
+      "@type": "Organization", "name": "Adobe"
+    }
+  }, "knowsAbout": [
+    "Magento 2",
+    "Adobe Commerce",
+    "PHP",
+    "Magento extension development",
+    "Magento platform upgrades",
+    "Magento compatibility engineering",
+    "Hyvä Theme",
+    "Hyvä Checkout",
+    "Adobe App Builder",
+    "REST API",
+    "RabbitMQ",
+    "MariaDB",
+    "MySQL",
+    "JavaScript",
+    "jQuery",
+    "LESS",
+    "CSS",
+    "HTML",
+    "Git",
+    "GitLab CI/CD",
+    "GitHub Actions",
+    "Unit testing",
+    "Integration testing",
+    "Static code analysis",
+    "AI-assisted software development",
+    "Claude Code",
+    "OpenSearch",
+    "Elasticsearch",
+    "Redis",
+    "Valkey",
+    "Docker"
+  ], "knowsLanguage": [
+    "en",
+    "de",
+    "ru"
+  ]
   }
 </script>
 <!-- /schema.org/Person -->
@@ -139,13 +112,17 @@
     width: 210mm;
   }
 
+  nav {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   nav input {
     margin: 0 .2rem 0 0;
   }
 
   nav label {
-    display: inline-flex;
-    flex-wrap: wrap;
     margin: 0 2rem 1rem 0;
     user-select: none;
   }
@@ -326,6 +303,11 @@
     <input id="lang-ru" name="lang" type="radio">
     <span>Russian</span>
   </label>
+  <button onclick="window.print()" type="button">
+    <span lang="en">Save as PDF</span>
+    <span lang="de">Als PDF speichern</span>
+    <span lang="ru">Сохранить как PDF</span>
+  </button>
 </nav>
 
 <main>
