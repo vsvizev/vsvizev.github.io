@@ -5,7 +5,7 @@
     "label": "Senior Magento / Adobe Commerce developer",
     "email": "victor.svizev@gmail.com",
     "url": "https://vsvizev.github.io",
-    "summary": "Certified senior Magento / Adobe Commerce developer with 9+ years of experience working in distributed teams on commercial extension development, platform upgrades, and compatibility engineering. Independently designs, builds, and sells Magento extensions on the Adobe Commerce Marketplace, with 100+ sales. Experienced in integrating Magento with modern solutions, including Hyvä Theme and Adobe App Builder, as well as in AI-assisted development with Claude Code and OpenCode.",
+    "summary": "Certified senior Magento / Adobe Commerce developer with 9+ years of experience working in distributed teams on commercial extension development, platform upgrades, and compatibility engineering. Independently designs, builds, and sells Magento extensions on the Adobe Commerce Marketplace, with 100+ sales. Experienced in integrating Magento with modern solutions, including Hyvä Theme and Adobe App Builder, as well as in AI-assisted development.",
     "location": {
       "city": "Dresden",
       "countryCode": "DE"
@@ -56,7 +56,7 @@
         "Provide prompt support to internal teams and first-level support to customers – from feature development to issue resolution.",
         "Own major Adobe Commerce upgrades across customer projects.",
         "Develop compatibility modules for Hyvä Theme and Hyvä Checkout.",
-        "Develop an application built on Adobe App Builder.",
+        "Develop applications built on Adobe App Builder.",
         "Develop internal Claude Code and OpenCode plugins to integrate AI agents into company-wide development workflows."
       ]
     },
@@ -90,7 +90,7 @@
       "name": "VCT – independent Magento extension vendor",
       "startDate": "2021-09",
       "url": "https://commercemarketplace.adobe.com/partner/vct",
-      "description": "Design, develop, and maintain commercial extensions – covering the end-to-end lifecycle from concept and implementation through review and publication on the Adobe Commerce Marketplace – including end-user documentation, continuous releases, and customer support.",
+      "description": "Design, develop, and maintain commercial extensions – covering the end-to-end lifecycle from concept and implementation through review and publication on the Adobe Commerce Marketplace – including end-user documentation (https://vct-vendor.github.io), continuous releases, and customer support.",
       "highlights": [
         "100+ sales across 4 extensions",
         "1400+ free downloads",
@@ -207,7 +207,7 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Technical reading comprehension and written communication; spoken communication at a basic working level"
+      "fluency": "Technical reading comprehension and written communication; limited spoken communication"
     },
     {
       "language": "German",
@@ -217,5 +217,10 @@
       "language": "Russian",
       "fluency": "Native"
     }
-  ]
+  ],
+  "meta": {
+    "canonical": "https://vsvizev.github.io/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2026-10-25T00:00:00"
+  }
 }
