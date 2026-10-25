@@ -1,3 +1,4 @@
 # llms.txt: https://vsvizev.github.io/llms.txt
+# resume.json: https://vsvizev.github.io/resume.json
 User-agent: *
 Allow: /
