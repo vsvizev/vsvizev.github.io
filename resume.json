@@ -63,6 +63,7 @@
     {
       "name": "netz98 GmbH – a valantic company",
       "location": "Germany (remote)",
+      "url": "https://netz98.de",
       "position": "Adobe Commerce backend developer",
       "startDate": "2022-08",
       "endDate": "2023-01",
@@ -75,6 +76,7 @@
     {
       "name": "UNlimited world trade union GmbH",
       "location": "Germany (remote since January 2018)",
+      "url": "https://shop-unlimited.com",
       "position": "Magento full-stack developer",
       "startDate": "2017-02",
       "endDate": "2022-07",
@@ -101,6 +103,7 @@
   "education": [
     {
       "institution": "Southern Federal University, Russia",
+      "url": "https://sfedu.ru/index_eng.php",
       "area": "Control in technical systems",
       "studyType": "Magister",
       "startDate": "2007-09",
@@ -217,10 +220,5 @@
       "language": "Russian",
       "fluency": "Native"
     }
-  ],
-  "meta": {
-    "canonical": "https://vsvizev.github.io/resume.json",
-    "version": "v1.0.0",
-    "lastModified": "2026-10-25T00:00:00"
-  }
+  ]
 }
