@@ -39,39 +39,10 @@
     size: A4;
   }
 
-  ::selection {
-    background-color: #ccd0d5;
-  }
-
-  html {
-    scrollbar-color: #ccd0d5 transparent;
-  }
-
   body {
     font: 11pt/1.4 Inter, sans-serif;
     font-optical-sizing: auto;
     width: 210mm;
-  }
-
-  nav {
-    align-items: flex-start;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  nav input {
-    margin: 0 .25rem 0 0;
-  }
-
-  nav label {
-    display: inline-flex;
-    flex-wrap: wrap;
-    margin: 0 2rem 1rem 0;
-    user-select: none;
-  }
-
-  nav button {
-    font-family: inherit;
   }
 
   h1 {
@@ -113,13 +84,6 @@
     text-decoration: none;
   }
 
-  a:hover span {
-    background-color: #06c;
-    color: #fff;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-  }
-
   .muted {
     color: #6e6e73;
   }
@@ -148,13 +112,8 @@
   ul.ul-h > li:not(:last-child)::after {
     content: '·';
     content: '·' / '';
-    font-size: 11pt;
     font-weight: 600;
     margin: 0 .8rem;
-  }
-
-  nav input[type='radio'] {
-    accent-color: #06c;
   }
 
   nav,
@@ -164,7 +123,8 @@
 
   address,
   nav label span,
-  ul.ul-h li span {
+  ul.ul-h li span,
+  ul.ul-h > li:not(:last-child)::after {
     font-size: 11pt;
   }
 
@@ -189,6 +149,14 @@
   }
 
   @media screen {
+    ::selection {
+      background-color: #ccd0d5;
+    }
+
+    html {
+      scrollbar-color: #ccd0d5 transparent;
+    }
+
     body {
       margin: 2rem auto 5rem;
     }
@@ -196,6 +164,35 @@
     #cv,
     #linkedin::after {
       display: none;
+    }
+
+    nav {
+      align-items: flex-start;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    nav label {
+      display: inline-flex;
+      flex-wrap: wrap;
+      margin: 0 2rem 1rem 0;
+      user-select: none;
+    }
+
+    nav input[type='radio'] {
+      accent-color: #06c;
+      margin: 0 .3rem 0 0;
+    }
+
+    nav button {
+      font-family: inherit;
+    }
+
+    a:hover span {
+      background-color: #06c;
+      color: #fff;
+      margin: 0 -.25rem;
+      padding: 0 .25rem;
     }
   }
 
@@ -246,9 +243,9 @@
     "sameAs": [
       "https://linkedin.com/in/victor-svizev",
       "https://xing.com/profile/victor_svizev",
-      "https://stackoverflow.com/users/7676971/victor-s",
+      "https://commercemarketplace.adobe.com/partner/vct",
       "https://github.com/vsvizev",
-      "https://commercemarketplace.adobe.com/partner/vct"
+      "https://stackoverflow.com/users/7676971/victor-s"
     ],
     "address": {
       "@type": "PostalAddress",
@@ -280,13 +277,14 @@
       "Magento 2",
       "Adobe Commerce",
       "PHP",
-      "Magento extension development",
-      "Magento platform upgrades",
-      "Magento compatibility engineering",
       "Hyvä Theme",
       "Hyvä Checkout",
       "Adobe App Builder",
       "REST API",
+      "Magento extension development",
+      "Magento platform upgrades",
+      "Magento compatibility engineering",
+      "Composer",
       "RabbitMQ",
       "MariaDB",
       "MySQL",
@@ -305,8 +303,8 @@
       "Claude Code",
       "OpenSearch",
       "Elasticsearch",
-      "Redis",
       "Valkey",
+      "Redis",
       "Docker"
     ],
     "knowsLanguage": [
@@ -705,7 +703,7 @@
         <strong lang="en">Development environment:</strong>
         <strong lang="de">Entwicklungsumgebung:</strong>
         <strong lang="ru">Окружение разработки:</strong>
-        <span>Composer; OpenSearch/Elasticsearch; Valkey/Redis; Docker</span>
+        <span>Docker; Composer; OpenSearch/Elasticsearch; Valkey/Redis</span>
       </li>
       <li>
         <strong lang="en">Code quality & testing:</strong>
