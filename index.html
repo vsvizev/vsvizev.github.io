@@ -69,12 +69,6 @@
     margin: .45rem 0;
   }
 
-  #projects ul,
-  #certifications ul {
-    list-style: none;
-    padding: 0;
-  }
-
   #skills ul li {
     margin-top: .75rem;
   }
@@ -98,7 +92,7 @@
   ul li,
   section div,
   section > article:first-of-type h3 {
-    margin: .45rem 0 0 0;
+    margin: .45rem 0 0;
   }
 
   ul.ul-h {
@@ -122,6 +116,7 @@
   }
 
   address,
+  nav button,
   nav label span,
   ul.ul-h li span,
   ul.ul-h > li:not(:last-child)::after {
@@ -167,32 +162,47 @@
     }
 
     nav {
-      align-items: flex-start;
       display: flex;
       flex-wrap: wrap;
+      justify-content: space-between;
     }
 
     nav label {
       display: inline-flex;
-      flex-wrap: wrap;
-      margin: 0 2rem 1rem 0;
+      position: relative;
+    }
+
+    nav input {
+      appearance: none;
+      position: absolute;
+    }
+
+    nav button,
+    nav label span {
+      background: none;
+      border: 1px solid #06c;
+      color: #06c;
+      cursor: pointer;
+      margin: 0 0 1rem;
+      padding: calc(.15rem - 1px) calc(.5rem - 1px);
       user-select: none;
     }
 
-    nav input[type='radio'] {
-      accent-color: #06c;
-      margin: 0 .3rem 0 0;
+    nav label:not(:first-child) span {
+      border-left: 0;
     }
 
-    nav button {
-      font-family: inherit;
+    a:hover span,
+    nav button:hover,
+    nav label:hover span,
+    nav input:checked + span {
+      background-color: #06c;
+      color: #fff;
     }
 
     a:hover span {
-      background-color: #06c;
-      color: #fff;
-      margin: 0 -.25rem;
-      padding: 0 .25rem;
+      margin: -.15rem -.5rem;
+      padding: .15rem .5rem;
     }
   }
 
@@ -331,23 +341,25 @@
 
 <body>
 <nav aria-label="Language selector">
-  <label>
-    <input checked id="lang-en" name="lang" type="radio">
-    <span>English</span>
-  </label>
-  <label>
-    <input id="lang-de" name="lang" type="radio">
-    <span>German</span>
-  </label>
-  <label>
-    <input id="lang-ru" name="lang" type="radio">
-    <span>Russian</span>
-  </label>
   <button onclick="window.print()" type="button">
     <span lang="en">Save as PDF</span>
     <span lang="de">Als PDF speichern</span>
     <span lang="ru">Сохранить как PDF</span>
   </button>
+  <div>
+    <label>
+      <input checked id="lang-en" name="lang" type="radio">
+      <span>English</span>
+    </label>
+    <label>
+      <input id="lang-de" name="lang" type="radio">
+      <span>German</span>
+    </label>
+    <label>
+      <input id="lang-ru" name="lang" type="radio">
+      <span>Russian</span>
+    </label>
+  </div>
 </nav>
 
 <main>
