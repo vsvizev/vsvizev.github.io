@@ -18,8 +18,8 @@
 <meta content="Victor Svizev – Senior Magento / Adobe Commerce developer" property="og:title">
 <meta content="Victor Svizev – Senior Magento / Adobe Commerce developer" name="twitter:title">
 <meta content="Senior Magento 2 / Adobe Commerce developer in Dresden, Germany. 9+ years in extension development, platform upgrades, compatibility engineering, and Hyvä Theme." name="description">
-<meta content="Senior Magento 2 / Adobe Commerce developer in Dresden, Germany. 9+ years in extension development, platform upgrades, compatibility engineering, and Hyvä Theme." property="og:description">
 <meta content="Senior Magento 2 / Adobe Commerce developer in Dresden, Germany. 9+ years in extension development, platform upgrades, compatibility engineering, and Hyvä Theme." name="twitter:description">
+<meta content="Senior Magento 2 / Adobe Commerce developer in Dresden, Germany. 9+ years in extension development, platform upgrades, compatibility engineering, and Hyvä Theme." property="og:description">
 
 <link href="https://vsvizev.github.io" rel="canonical">
 <link href="llms.txt" rel="describedby" />
@@ -63,18 +63,9 @@
     margin: 2.8rem 0 0;
   }
 
-  h1,
-  h2,
-  h3,
-  strong,
-  header div {
-    color: #1e1f22;
-  }
-
   header div {
     font-size: 14pt;
     font-weight: 400;
-    margin: .45rem 0;
   }
 
   #skills ul li {
@@ -86,10 +77,6 @@
     text-decoration: none;
   }
 
-  .muted {
-    color: #6e6e73;
-  }
-
   ul {
     display: flex;
     flex-direction: column;
@@ -98,6 +85,7 @@
   }
 
   ul li,
+  header div,
   section div,
   section > article:first-of-type h3 {
     margin: .45rem 0 0;
@@ -110,12 +98,14 @@
     padding: 0;
   }
 
-  /*noinspection CssOverwrittenProperties*/
   ul.ul-h > li:not(:last-child)::after {
-    content: '·';
     content: '·' / '';
     font-weight: 600;
     margin: 0 .8rem;
+  }
+
+  address {
+    font-style: normal;
   }
 
   nav,
@@ -131,8 +121,8 @@
     font-size: 11pt;
   }
 
-  address {
-    font-style: normal;
+  .muted {
+    color: #6e6e73;
   }
 
   [lang]:not(html, label) {
@@ -143,12 +133,6 @@
   body:has(#lang-de:checked) [lang='de'],
   body:has(#lang-ru:checked) [lang='ru'] {
     display: inline;
-  }
-
-  @supports not selector(:has(*)) {
-    [lang='en'] {
-      display: inline !important;
-    }
   }
 
   @media screen {
@@ -162,11 +146,6 @@
 
     body {
       margin: 2rem auto 5rem;
-    }
-
-    #cv,
-    #linkedin::after {
-      display: none;
     }
 
     nav {
@@ -210,9 +189,14 @@
     }
 
     a:hover span {
-      /* margin: -.15rem -.4rem; padding: .15rem .4rem; */
       box-decoration-break: clone;
       box-shadow: -.25rem 0 0 .15rem #06c, .25rem 0 0 .15rem #06c;
+      /* margin: -.15rem -.4rem; padding: .15rem .4rem; */
+    }
+
+    #cv,
+    #linkedin::after {
+      display: none;
     }
   }
 
@@ -252,10 +236,10 @@
 <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Person",
     "@id": "https://vsvizev.github.io/#person",
-    "url": "https://vsvizev.github.io",
+    "@type": "Person",
     "name": "Victor Svizev",
+    "url": "https://vsvizev.github.io",
     "givenName": "Victor",
     "familyName": "Svizev",
     "alternateName": "Виктор Свизев",
@@ -285,9 +269,9 @@
     },
     "hasCredential": {
       "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "certification",
       "name": "AD0-E725 Adobe Commerce Developer Expert",
       "url": "https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7",
+      "credentialCategory": "certification",
       "recognizedBy": {
         "@type": "Organization",
         "name": "Adobe"
