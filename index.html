@@ -91,33 +91,20 @@
     margin: .45rem 0 0;
   }
 
-  ul.ul-h {
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-  }
-
-  ul.ul-h > li:not(:last-child)::after {
-    content: '·' / '';
-    font-weight: 600;
-    margin: 0 .8rem;
-  }
-
   address {
     font-style: normal;
   }
 
   nav,
-  ul.ul-h li {
+  .ul-h li {
     font-size: 0;
   }
 
   address,
   nav button,
   nav label span,
-  ul.ul-h li span,
-  ul.ul-h > li:not(:last-child)::after {
+  .ul-h li span,
+  .ul-h > li:not(:last-child)::after {
     font-size: 11pt;
   }
 
@@ -125,14 +112,17 @@
     color: #6e6e73;
   }
 
-  [lang]:not(html, label) {
-    display: none;
+  .ul-h {
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
   }
 
-  body:has(#lang-en:checked) [lang='en'],
-  body:has(#lang-de:checked) [lang='de'],
-  body:has(#lang-ru:checked) [lang='ru'] {
-    display: inline;
+  .ul-h > li:not(:last-child)::after {
+    content: '·' / '';
+    font-weight: 700;
+    margin: 0 .8rem;
   }
 
   @media screen {
@@ -207,11 +197,11 @@
       zoom: 130%;
     }
 
-    ul.ul-h {
+    .ul-h {
       flex-direction: column;
     }
 
-    ul.ul-h > li::after {
+    .ul-h > li::after {
       display: none;
     }
   }
@@ -229,6 +219,18 @@
     article {
       break-inside: avoid;
     }
+  }
+</style>
+
+<style>
+  [lang]:not(html, label) {
+    display: none;
+  }
+
+  body:has(#lang-en:checked) [lang='en'],
+  body:has(#lang-de:checked) [lang='de'],
+  body:has(#lang-ru:checked) [lang='ru'] {
+    display: inline;
   }
 </style>
 
@@ -406,9 +408,9 @@
       <span lang="ru">О себе</span>
     </h2>
     <div>
-      <span lang="en">Certified senior Magento / Adobe Commerce developer with 9+ years of experience in distributed teams, specializing in commercial extension development, platform upgrades, and compatibility management. Practical experience with Hyvä Theme and Adobe App Builder. Integrate AI into development workflows. Independently design, develop, and sell Magento extensions on the Adobe Commerce Marketplace (100+ sales).</span>
-      <span lang="de">Zertifizierter Senior Magento / Adobe Commerce Entwickler mit 9+ Jahren Erfahrung in verteilten Teams: Spezialisiert auf die Entwicklung kommerzieller Extensions, Durchführung von Plattform-Upgrades und Kompatibilitätsmanagement. Praxiserfahrung mit Hyvä Theme, Adobe App Builder. Integriere KI in Entwicklungsprozesse. Konzipiere, entwickle und vertreibe eigenständig Magento-Extensions auf dem Adobe Commerce Marketplace (100+ Verkäufe).</span>
-      <span lang="ru">Сертифицированный senior Magento / Adobe Commerce разработчик с опытом 9+ лет в распределенных командах: разработка коммерческих расширений, обновление платформы, обеспечение совместимости. Имею практический опыт работы с Hyvä Theme, Adobe App Builder. Интегрирую ИИ в рабочие процессы. Самостоятельно проектирую, разрабатываю и продаю Magento расширения на Adobe Commerce Marketplace (100+ продаж).</span>
+      <span lang="en">Certified senior Magento / Adobe Commerce developer with 9+ years of experience in distributed teams, specializing in commercial extension development, platform upgrades, and compatibility management. Practical experience with Hyvä Theme and Adobe App Builder. Integrate AI into development workflows. Independently design, develop, and sell Magento extensions on the Adobe Commerce Marketplace.</span>
+      <span lang="de">Zertifizierter Senior Magento / Adobe Commerce Entwickler mit 9+ Jahren Erfahrung in verteilten Teams: Spezialisiert auf die Entwicklung kommerzieller Extensions, Durchführung von Plattform-Upgrades und Kompatibilitätsmanagement. Praxiserfahrung mit Hyvä Theme, Adobe App Builder. Integriere KI in Entwicklungsprozesse. Konzipiere, entwickle und vertreibe eigenständig Magento-Extensions auf dem Adobe Commerce Marketplace.</span>
+      <span lang="ru">Сертифицированный senior Magento / Adobe Commerce разработчик с опытом 9+ лет в распределенных командах: разработка коммерческих расширений, обновление платформы, обеспечение совместимости. Имею практический опыт работы с Hyvä Theme, Adobe App Builder. Интегрирую ИИ в рабочие процессы. Самостоятельно проектирую, разрабатываю и продаю Magento расширения на Adobe Commerce Marketplace.</span>
     </div>
   </section>
 
@@ -445,11 +447,6 @@
           </a>
         </li>
       </ul>
-      <div>
-        <span lang="en">Design, develop, and maintain commercial extensions across the full lifecycle: concept, implementation and Marketplace publication. Write end-user documentation, publish regular releases, and handle customer support.</span>
-        <span lang="de">Konzipiere, entwickle und betreue kommerzielle Extensions – vom Konzept über die Implementierung bis zur Veröffentlichung auf dem Adobe Commerce Marketplace – einschließlich Endbenutzerdokumentation, regelmäßiger Releases und Kundensupport.</span>
-        <span lang="ru">Проектирую, разрабатываю и поддерживаю коммерческие расширения – от идеи и реализации до публикации на Adobe Commerce Marketplace – включая подготовку пользовательской документации, регулярный выпуск релизов и поддержку клиентов.</span>
-      </div>
       <ul class="ul-h">
         <li>
           <span lang="en">100+ sales across 4 extensions</span>
@@ -467,6 +464,11 @@
           <span lang="ru">1400+ бесплатных загрузок</span>
         </li>
       </ul>
+      <div>
+        <span lang="en">Design, develop, and maintain commercial extensions across the full lifecycle: concept, implementation and Marketplace publication. Write end-user documentation, publish regular releases, and handle customer support.</span>
+        <span lang="de">Konzipiere, entwickle und betreue kommerzielle Extensions – vom Konzept über die Implementierung bis zur Veröffentlichung auf dem Adobe Commerce Marketplace – einschließlich Endbenutzerdokumentation, regelmäßiger Releases und Kundensupport.</span>
+        <span lang="ru">Проектирую, разрабатываю и поддерживаю коммерческие расширения – от идеи и реализации до публикации на Adobe Commerce Marketplace – включая подготовку пользовательской документации, регулярный выпуск релизов и поддержку клиентов.</span>
+      </div>
     </article>
   </section>
 
