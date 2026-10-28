@@ -1,27 +1,35 @@
 # Victor Svizev
 
-> Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, compatibility engineering, Hyvä Theme, Adobe App Builder, and AI-assisted development. Based in Dresden, Germany; remote-first.
+> Senior Magento / Adobe Commerce developer with 9+ years of experience in extension development, platform upgrades, Hyvä Theme, and Adobe App Builder. Adobe Certified Expert – Adobe Commerce Developer. Based in Dresden, Germany; remote preferred. Languages: Russian (native), German (telc B2), English (technical).
 
-Certified Adobe Commerce Developer Expert (AD0-E725). Independent Magento extension vendor (VCT) on the Adobe Commerce Marketplace with 100+ sales across 4 extensions and a 5.0 rating. Currently working at TechDivision GmbH, maintaining an ecosystem of 140+ Magento extensions, developing Hyvä Theme / Hyvä Checkout compatibility modules and Adobe App Builder applications, and building internal Claude Code and OpenCode plugins used company-wide. Languages: Russian (native), German (professional working proficiency, telc B2), English (technical reading and written communication, limited spoken).
+The CV is a single trilingual HTML page (English, German, Russian). Language is switched on the page itself; there are no separate per-language URLs. Content below is current as of 2026-10-28.
 
-## CV
+## Profile
 
-- [Full CV / resume](https://vsvizev.github.io): Complete work history, skills, education, and certifications, available in English, German, and Russian
-- [Resume as JSON Resume](https://vsvizev.github.io/resume.json): Machine-readable version of the CV in the JSON Resume format (English)
-- [Adobe Certified Expert – Adobe Commerce Developer certificate](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7): Verification of AD0-E725 credential
+- [CV (EN/DE/RU)](https://vsvizev.github.io): full résumé – summary, projects, experience, education, skills, languages, certifications
+- [Résumé as JSON Resume](https://vsvizev.github.io/resume.json): machine-readable version of the CV (jsonresume.org schema)
+- [LinkedIn](https://linkedin.com/in/victor-svizev): professional profile
+- Contact: victor.svizev@gmail.com
+
+## Experience
+
+- TechDivision GmbH, Senior Magento / Adobe Commerce developer (Feb 2023 – present, remote): 140+ Magento extensions incl. Symfony-based components, major Adobe Commerce upgrades, Hyvä Theme / Hyvä Checkout compatibility modules, Adobe App Builder applications, Claude Code and OpenCode plugins for company-wide AI-assisted development
+- netz98 GmbH – a valantic company, Adobe Commerce backend developer (Aug 2022 – Jan 2023, remote): three B2B/B2C client projects
+- UNlimited world trade union GmbH, Magento full-stack developer (Feb 2017 – Jul 2022): four B2B/B2C stores, migrations Magento 1.7 → 1.9 → 2.3
 
 ## Projects
 
-- [Adobe Commerce Marketplace profile](https://commercemarketplace.adobe.com/partner/vct): VCT vendor listing, 100+ sales, 5.0 / 5 rating across 4 extensions
-- [VCT extension documentation](https://vct-vendor.github.io): End-user documentation for commercial Magento 2 extensions published under the VCT vendor brand
+- [VCT – independent Magento extension vendor](https://commercemarketplace.adobe.com/partner/vct): commercial extensions on the Adobe Commerce Marketplace since Sep 2021; 100+ sales across 4 extensions, 5.0 rating from 4 reviews, 1,800+ free downloads
+- [VCT end-user documentation](https://vct-vendor.github.io): documentation for the VCT extensions
 
-## Profiles
+## Certification
 
-- [GitHub](https://github.com/vsvizev): Code repositories and open-source activity
-- [LinkedIn](https://linkedin.com/in/victor-svizev): Professional profile and work history
-- [Xing](https://xing.com/profile/victor_svizev): Professional profile (DACH region)
-- [Stack Overflow](https://stackoverflow.com/users/7676971/victor-s): Technical Q&A activity
+- [Adobe Certified Expert – Adobe Commerce Developer](https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7): verifiable credential
 
-## Contact
+## Skills
 
-- Email: victor.svizev@gmail.com
+Magento 2 / Adobe Commerce, PHP, Symfony components, REST API, GraphQL, RabbitMQ, MariaDB/MySQL, Hyvä Theme, Hyvä Checkout, Adobe App Builder, JavaScript, Docker, Composer, OpenSearch, Valkey/Redis, PHPUnit-style unit and integration testing, PHPStan, PHP_CodeSniffer, PHP Mess Detector, Git, GitLab CI/CD, GitHub Actions, Claude Code, OpenCode, AsciiDoc, Docusaurus, Antora
+
+## Optional
+
+- Education: Master's degree, control in technical systems, Southern Federal University, Russia (2007–2014)
