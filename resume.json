@@ -5,7 +5,7 @@
     "label": "Senior Magento / Adobe Commerce developer",
     "email": "victor.svizev@gmail.com",
     "url": "https://vsvizev.github.io",
-    "summary": "Certified senior Magento / Adobe Commerce developer with 9+ years of experience working in distributed teams on commercial extension development, platform upgrades, and compatibility engineering. Independently designs, builds, and sells Magento extensions on the Adobe Commerce Marketplace, with 100+ sales. Experienced in integrating Magento with modern solutions, including Hyvä Theme and Adobe App Builder, as well as in AI-assisted development.",
+    "summary": "Certified senior Magento / Adobe Commerce developer with 9+ years of experience in distributed teams. Specialize in commercial extension development, platform upgrades, and compatibility management. Hands-on experience with Hyvä Theme and Adobe App Builder. Integrate AI into development workflows. Independently design, build, and sell Magento extensions on the Adobe Commerce Marketplace.",
     "location": {
       "city": "Dresden",
       "countryCode": "DE"
@@ -15,75 +15,58 @@
         "network": "LinkedIn",
         "username": "victor-svizev",
         "url": "https://linkedin.com/in/victor-svizev"
-      },
-      {
-        "network": "Xing",
-        "username": "victor_svizev",
-        "url": "https://xing.com/profile/victor_svizev"
-      },
-      {
-        "network": "Stack Overflow",
-        "username": "victor-s",
-        "url": "https://stackoverflow.com/users/7676971/victor-s"
-      },
-      {
-        "network": "GitHub",
-        "username": "vsvizev",
-        "url": "https://github.com/vsvizev"
-      },
-      {
-        "network": "Adobe Commerce Marketplace",
-        "username": "vct",
-        "url": "https://commercemarketplace.adobe.com/partner/vct"
       }
     ]
   },
   "work": [
     {
       "name": "TechDivision GmbH",
-      "location": "Germany (remote)",
       "url": "https://techdivision.com",
       "position": "Senior Magento / Adobe Commerce developer",
+      "location": "Germany (remote)",
       "startDate": "2023-02",
+      "summary": "Maintain and enhance a portfolio of 140+ Magento extensions, including Symfony-based components.",
       "highlights": [
-        "Evolve and maintain a large ecosystem of 140+ Magento extensions, including Symfony-based components.",
-        "Draft technical concepts and development tickets, and maintain technical and end-user documentation.",
+        "Write technical specifications and development tickets; maintain technical and end-user documentation.",
         "Develop new modules and features, refactor code, and resolve issues.",
-        "Expand test coverage for new features and modules, including regression tests and edge cases.",
-        "Ensure extension compatibility with new Magento releases (starting with beta versions), as well as with supported PHP versions.",
-        "Conduct code reviews to maintain code quality and reliability standards.",
-        "Maintain package dependencies, release pipelines, and versioning.",
-        "Provide prompt support to internal teams and first-level support to customers – from feature development to issue resolution.",
-        "Own major Adobe Commerce upgrades across customer projects.",
+        "Expand test coverage for new features and modules, including regression and edge-case tests.",
+        "Maintain compatibility with supported PHP versions and ensure day-one compatibility of extensions with new Magento releases by supporting them from beta versions onward.",
+        "Conduct code reviews to uphold quality and reliability standards.",
+        "Manage package dependencies, versioning and release pipelines.",
+        "Support internal teams on development topics and customers on first-line issue resolution.",
+        "Own the technical implementation of major Adobe Commerce upgrades in client projects.",
         "Develop compatibility modules for Hyvä Theme and Hyvä Checkout.",
-        "Develop applications built on Adobe App Builder.",
-        "Develop internal Claude Code and OpenCode plugins to integrate AI agents into company-wide development workflows."
+        "Develop applications on Adobe App Builder.",
+        "Develop Claude Code and OpenCode plugins to integrate AI into company-wide development workflows."
       ]
     },
     {
       "name": "netz98 GmbH – a valantic company",
-      "location": "Germany (remote)",
       "url": "https://netz98.de",
       "position": "Adobe Commerce backend developer",
+      "location": "Germany (remote)",
       "startDate": "2022-08",
       "endDate": "2023-01",
       "highlights": [
-        "Contributed to 3 B2B and B2C client projects across 2 teams.",
-        "Added new functionalities, adapted third-party extensions, integrated third-party services, and resolved issues.",
-        "Expanded test coverage for new functionality and conducted code reviews."
+        "Contributed to three B2B and B2C client projects in two teams.",
+        "Developed new features and customized third-party extensions.",
+        "Integrated third-party services and resolved issues.",
+        "Expanded test coverage for new features and conducted code reviews."
       ]
     },
     {
       "name": "UNlimited world trade union GmbH",
-      "location": "Germany (remote since January 2018)",
       "url": "https://shop-unlimited.com",
       "position": "Magento full-stack developer",
+      "location": "Germany (remote since January 2018)",
       "startDate": "2017-02",
       "endDate": "2022-07",
       "highlights": [
-        "Owned end-to-end development – frontend, backend customizations, and test environments – for 4 in-house Magento B2B and B2C stores as part of a two-person development team.",
-        "Performed migrations from Magento 1.7 to 1.9 and from 1.9 to 2.3, including extension and theme replacements and rewrites, and implemented a custom catalog import.",
-        "Maintained and modernized legacy customizations, implemented regulatory store changes, and improved production reliability."
+        "Owned end-to-end development (frontend, backend and test environments) of the company's four Magento B2B and B2C stores in a two-person team.",
+        "Maintained and modernized legacy customizations and improved production stability.",
+        "Migrated stores from Magento 1.7 to 1.9 and from 1.9 to 2.3, replacing or rewriting extensions and themes for the new versions.",
+        "Contributed to the development of a custom catalog import.",
+        "Implemented regulatory requirements in the stores."
       ]
     }
   ],
@@ -91,134 +74,68 @@
     {
       "name": "VCT – independent Magento extension vendor",
       "startDate": "2021-09",
-      "url": "https://commercemarketplace.adobe.com/partner/vct",
-      "description": "Design, develop, and maintain commercial extensions – covering the end-to-end lifecycle from concept and implementation through review and publication on the Adobe Commerce Marketplace – including end-user documentation (https://vct-vendor.github.io), continuous releases, and customer support.",
+      "description": "Manage commercial extensions through the full lifecycle, from concept and implementation to Marketplace publication. Write end-user documentation, ship releases, and provide customer support.",
       "highlights": [
         "100+ sales across 4 extensions",
-        "1400+ free downloads",
-        "5.0 / 5 rating based on 4 reviews"
-      ]
+        "5.0 rating from 4 reviews",
+        "1,800+ free downloads"
+      ],
+      "url": "https://commercemarketplace.adobe.com/partner/vct"
     }
   ],
   "education": [
     {
-      "institution": "Southern Federal University, Russia",
-      "url": "https://sfedu.ru/index_eng.php",
+      "institution": "Southern Federal University",
       "area": "Control in technical systems",
-      "studyType": "Magister",
+      "studyType": "Master's degree",
       "startDate": "2007-09",
       "endDate": "2014-09"
     }
   ],
   "certificates": [
     {
-      "name": "Adobe Certified Expert – Adobe Commerce Developer (AD0-E725)",
+      "name": "Adobe Certified Expert – Adobe Commerce Developer",
       "issuer": "Adobe",
       "url": "https://certification.adobe.com/credential/verify/3a07711f-74e0-11f1-9e60-42010a400fe7"
     }
   ],
   "skills": [
     {
-      "name": "Magento / Adobe Commerce",
-      "keywords": [
-        "Magento 2",
-        "extension development",
-        "compatibility engineering",
-        "platform upgrades",
-        "Hyvä Theme compatibility",
-        "Magento core architecture",
-        "advanced debugging"
-      ]
+      "name": "Magento 2 / Adobe Commerce",
+      "keywords": ["Extension development", "Compatibility management", "Platform upgrades", "Magento core architecture", "Hyvä Theme", "Hyvä Checkout", "Adobe App Builder"]
     },
     {
       "name": "Backend & integration",
-      "keywords": [
-        "PHP",
-        "Symfony-based components",
-        "REST API",
-        "GraphQL",
-        "RabbitMQ",
-        "MariaDB",
-        "MySQL",
-        "Adobe App Builder"
-      ]
+      "keywords": ["PHP", "Symfony-based components", "REST API", "GraphQL", "RabbitMQ", "MariaDB/MySQL"]
     },
     {
       "name": "Frontend",
-      "keywords": [
-        "JavaScript",
-        "jQuery",
-        "LESS",
-        "CSS",
-        "HTML"
-      ]
+      "keywords": ["JavaScript", "jQuery", "LESS/CSS", "HTML"]
     },
     {
       "name": "Development environment",
-      "keywords": [
-        "Composer",
-        "OpenSearch",
-        "Elasticsearch",
-        "Valkey",
-        "Redis",
-        "Docker"
-      ]
+      "keywords": ["valet.sh", "Docker", "Composer", "OpenSearch/Elasticsearch", "Valkey/Redis"]
     },
     {
-      "name": "Code quality & testing",
-      "keywords": [
-        "code review",
-        "unit testing",
-        "integration testing",
-        "PHP Mess Detector",
-        "PHPStan",
-        "PHP_CodeSniffer",
-        "Magento Coding Standard",
-        "Adobe Extension Quality Program"
-      ]
+      "name": "Testing & code quality",
+      "keywords": ["Unit and integration testing", "Code review", "Magento Coding Standard", "Adobe Extension Quality Program", "PHP_CodeSniffer", "PHP Mess Detector", "PHPStan"]
     },
     {
       "name": "Version control & release management",
-      "keywords": [
-        "Git",
-        "GitLab CI/CD",
-        "GitHub Actions",
-        "Jira",
-        "Magento Semantic Version Checker"
-      ]
+      "keywords": ["Git", "GitLab CI/CD", "GitHub Actions", "Magento Semantic Version Checker"]
     },
     {
-      "name": "AI-assisted development",
-      "keywords": [
-        "Claude Code",
-        "OpenCode",
-        "AI agents"
-      ]
+      "name": "AI integration",
+      "keywords": ["Claude Code", "OpenCode", "AI-assisted development workflows"]
     },
     {
-      "name": "Documentation",
-      "keywords": [
-        "Markdown",
-        "AsciiDoc",
-        "Docusaurus",
-        "Antora",
-        "technical documentation",
-        "end-user documentation"
-      ]
+      "name": "Collaboration & documentation",
+      "keywords": ["Jira", "Confluence", "Helpdesk", "Slack", "Markdown", "AsciiDoc", "Docusaurus", "Antora", "Technical and end-user documentation"]
     }
   ],
   "languages": [
-    {
-      "language": "English",
-      "fluency": "Technical reading comprehension and written communication; limited spoken communication"
-    },
-    {
-      "language": "German",
-      "fluency": "Professional working proficiency (telc B2)"
-    },
-    {
-      "language": "Russian",
-      "fluency": "Native"
-    }
+    { "language": "English", "fluency": "Technical reading and writing, limited spoken proficiency" },
+    { "language": "German", "fluency": "Professional working proficiency, telc B2 certified" },
+    { "language": "Russian", "fluency": "Native" }
   ]
 }
