@@ -28,9 +28,9 @@
 
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
-<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" media="print" onload="this.media='all'" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..600&display=swap" media="print" onload="this.media='all'" rel="stylesheet">
 <noscript>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300..600&display=swap" rel="stylesheet">
 </noscript>
 
 <style>
@@ -66,7 +66,6 @@
   header div {
     font-size: 14pt;
     font-weight: 400;
-    margin: .2rem 0 0;
   }
 
   a {
@@ -81,6 +80,7 @@
     padding: 0 0 0 .8rem;
   }
 
+  header div,
   ul li,
   section div,
   section article:first-of-type h3 {
@@ -89,6 +89,14 @@
 
   address {
     font-style: normal;
+  }
+
+  .ul-h {
+    color: #6e6e73;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
   }
 
   nav,
@@ -104,17 +112,9 @@
     font-size: 11pt;
   }
 
-  .ul-h {
-    color: #6e6e73;
-    flex-direction: row;
-    flex-wrap: wrap;
-    list-style: none;
-    padding: 0;
-  }
-
   .ul-h > li:not(:last-child)::after {
     content: '·' / '';
-    font-weight: 700;
+    font-weight: 600;
     margin: 0 .8rem;
   }
 
@@ -141,18 +141,18 @@
       justify-content: space-between;
     }
 
-    nav label {
-      display: inline-flex;
-      position: relative;
-    }
-
     nav input {
       appearance: none;
       position: absolute;
     }
 
-    nav button,
-    nav label span {
+    nav label {
+      display: inline-flex;
+      position: relative;
+    }
+
+    nav label span,
+    nav button {
       background: none;
       border: 1px solid #06c;
       color: #06c;
